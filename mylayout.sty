@@ -53,7 +53,9 @@
 \newfontfamily\sectionFont[Ligatures = TeX]{Shaker 2 Regular}
 
 \newfontfamily\headFont[Ligatures = TeX]{Shaker 2 Regular}
-\newfontfamily\footFont[Ligatures = TeX]{Shaker 2 Regular}
+%\newfontfamily\footFont[Ligatures = TeX]{Shaker 2 Regular}
+%\newfontfamily\footFont[Ligatures = TeX]{Shaker 2 Regular}
+\newfontfamily\footFont[Ligatures = TeX, Numbers = OldStyle]{Crimson Roman}
 
 % lettrineFirstLetter
 % lettrineWords
@@ -119,6 +121,7 @@ outer=17mm
 }
 \setstocksize{8in}{5.25in}
 \addtolength{\headheight}{5pt}
+%\addtolength{\footskip}{8pt}
 
 %% ========
 %% Hyperref
@@ -193,6 +196,13 @@ outer=17mm
 \sodef\soChapter{}{.1em}{.5em plus.1em}{.1em plus.1em minus.1em}
 \sodef\soDropcapsA{}{.1em}{.3em plus.1em}{.4em plus.1em minus.1em}
 \sodef\soDropcapsB{}{.1em}{.3em plus.1em}{.4em plus.1em minus.1em}
+
+%% Poem settings
+
+\PlainPoemTitle
+
+\renewcommand*{\PoemTitlefont}{\normalfont\Large}
+\setlength{\afterPoemTitleskip}{2\onelineskip}
 
 %% =====================================
 %% New, custom commands and environments
@@ -305,10 +315,10 @@ outer=17mm
     \createplainmark{index}{both}{\indexname}
     \createplainmark{glossary}{both}{\glossaryname}
   }
-  \makeevenhead{normalpage}{}{\headFont\itshape\small\thetitle}{}
-  \makeoddhead{normalpage}{}{\headFont\itshape\small\leftmark}{}
-  \makeevenfoot{normalpage}{}{\footFont\thepage}{}
-  \makeoddfoot{normalpage}{}{\footFont\thepage}{}
+  \makeevenhead{normalpage}{}{}{}
+  \makeoddhead{normalpage}{}{}{}
+  \makeevenfoot{normalpage}{}{}{\footFont\thepage\hspace*{2em}}
+  \makeoddfoot{normalpage}{\hspace*{2em}\footFont\thepage}{}{}
 
 \pagestyle{normalpage}
 
