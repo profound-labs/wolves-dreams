@@ -71,8 +71,9 @@
 \setlength{\parindent}{17pt}
 
 % \setlength{\vgap}{1.5em}
-% \setlength{\vindent}{\vgap}
 % \setlength{\vleftmargin}{2em}
+
+\setlength{\vindent}{\vgap}
 
 \renewcommand{\normalsize}{%
    \@setfontsize\normalsize\@xipt{16}%
@@ -241,11 +242,19 @@ outer=17mm
                 \item[]}%
                {\endlist}
 
+\renewenvironment{quote}%
+               {\list{}{\rightmargin 0.8em%
+                        \leftmargin 3.5em}%
+                \item[]}%
+               {\endlist}
+
 \newcommand\emptysheet{%
   \cleardoublepage
   \thispagestyle{empty}\mbox{}\newpage
   \thispagestyle{empty}\mbox{}\newpage
 }
+
+\newcommand\rhytmbreak{\par$\cdot - \cdot$\par}
 
 \def\gobble@spaces{\@ifnextchar\space{\@gobble\gobble@spaces}{}}
 \newcommand{\verseref}[1]{\mbox{}\marginpar{\par\vspace*{-7pt}\oldNumFont #1.}\gobble@spaces}
@@ -273,6 +282,11 @@ outer=17mm
   {\dropFont\firstcapsize\color{firstcaps}\soDropcapsA{#1}}%
   {\hspace{.1em}}%
   {\dropFont\dropcapsize\color{dropcaps}\soDropcapsB{\MakeUppercase{#2}}}%
+}
+
+\newcommand{\verseDedication}[1]{%
+  \vspace*{-1.5em}%
+  \hspace*{5em}\emph{#1}%
 }
 
 %% =======================
