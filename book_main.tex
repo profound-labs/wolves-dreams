@@ -7,9 +7,10 @@
 
 \title{Wolves, Dreams, Transformations}
 \subtitle{}
-\author{Ajahn Abhinando}
+\author{Bhikkhu Abhinando}
 \date{}
-\editionInfo{\textit{First edition}, 2000 copies, \the\year, printed in the United Kingdom}
+\editionInfo{\textit{First edition}, 2000 copies, \the\year\\ Printed in the U.K. by Remous Ltd, Sherborne, Dorset}
+
 % Title comment: ...
 % Publisher name: ...
 % Printer name: ...
@@ -40,9 +41,9 @@
 %% Short review or summary of the book, or comments by others.
 %% Brief bigraphy of the author, translator, editor, and their connection to the text.
 
-\cleartoverso
-\thispagestyle{empty}
-\input{./src-tex/about.tex}
+%\cleartoverso
+%\thispagestyle{empty}
+%\input{./src-tex/about.tex}
 
 %% Title page
 %% ----------
@@ -66,7 +67,29 @@
 \cleartorecto
 \thispagestyle{empty}
 {\raggedleft\vspace*{5em}\par
-To all who write summaries of \emph{imaginary} books
+
+\begin{quote}
+\itshape
+For Ajahn Sucitto\\
+Chandra, Graham\\
+and Linda
+
+with gratitude
+\end{quote}
+
+\par}
+
+\cleartorecto
+\thispagestyle{empty}
+{\raggedleft\vspace*{5em}\par
+
+\begin{quote}
+\itshape
+Love is most nearly itself\\
+when here and now cease to matter.\\
+\hspace*{2em}{\smaller\upshape T.S. Eliot, \textit{East Coker}}
+\end{quote}
+
 \par}
 
 %% Table of Contents
@@ -75,34 +98,12 @@ To all who write summaries of \emph{imaginary} books
 \cleartorecto
 \tableofcontents*
 
-%% Preface
-%% Introduction
-%% ----------------
-
-\chapterstyle{frontmatter}
-
-\cleartorecto
-\thispagestyle{empty}
-{\raggedleft\vspace*{5em}
-
-\begin{minipage}{0.9\linewidth}
-
-\begin{quote}
-``It is a laborious madness and an impoverishing one, the madness of composing vast books -- setting out in five hundred pages an idea that can be perfectly related orally in five minutes. The better way to go about it is to pretend that those books already exist, and offer a summary, a commentary on them\ldots\ A more reasonable, more inept, and more lazy man, I have chosen to write notes on \emph{imaginary} books.''
-
-{\small\textit{Jorge Luis Borges} -- The Garden of Forking Paths, Preface, 1942}
-\end{quote}
-
-\end{minipage}
-
-}
-
 %% Main matter
 %% ===========
 
 \mainmatter*
 
-\book{\thetitle}
+\book*{Wolves, Dreams, Transformations\newline\mbox{}\vspace*{-0.5\onelineskip}\newline Wölfe, Träume, Verwandlungen}
 
 \setcounter{chapter}{0}
 
@@ -114,35 +115,34 @@ To all who write summaries of \emph{imaginary} books
 %% ==========
 %% Appendices, Glossary, Notes, Index...
 
-\backmatter
+% No need for this now, and somehow it inserts an extra page
+%\backmatter
 
 \bookmarksetup{startatroot}
-
 \chapterstyle{backmatter}
 
 \chapter{Notes}
 
-p\pageref{carousel}., \textit{Engel Hab Ich Mir Abgewöhnt}, title: Thomas Rosenlöcher, title of the postscript to \textit{Flockenkarussel} (\textit{Carousel of Flakes}).
+\thispagestyle{normalpage}
+\normalsize
 
-p\pageref{yucatan}., \textit{Auf dem Weg nach Yucatán}, title: Yucatan from Aztec \textit{Yokatlān}, place of abundance.
+{\setlength{\parindent}{0pt}
+\setlength{\parskip}{\onelineskip}
 
-p\pageref{summer-nights}., \textit{Towards Yucatán, II. Skywalker}, line 19-20: Marina Zvetajeva.
+\pagerefstyle{\pageref{carousel}}, \textit{Engel Hab Ich Mir Abgewöhnt}, title: Thomas Rosenlöcher, title of the postscript to \textit{Flockenkarussel} (\textit{Carousel of Flakes}).
 
-p\pageref{nachtasyl}., \textit{Nachtasyl}, title: Secret NATO operation in post-war Europe linked to right-wing terror attacks.
+\pagerefstyle{\pageref{marina-autobio}}, \textit{Schwester}, line 1: Marina Zvetajeva, from autobiographic prose.
 
-p\pageref{rilke}., \textit{Karawane der Leichenwagen}, line 5-8: Variation on Rainer Maria Rilke's epitaph.
+\pagerefstyle{\pageref{schop-die-welt}}, \textit{Schwester}, line 10-11: Arthur Schopenhauer, \textit{Die Welt als Wille und Vorstellung}.
 
-p\pageref{marina-autobio}., \textit{Schwester}, line 1: Marina Zvetajeva, from autobiographic prose.
+\pagerefstyle{\pageref{yucatan}}, \textit{Auf dem Weg nach Yucatán}, title: Yucatan from Aztec \textit{Yokatlān}, place of abundance.
 
-p\pageref{schop-die-welt}., \textit{Schwester}, line 10-11: Arthur Schopenhauer, \textit{Die Welt als Wille und Vorstellung}.
+\pagerefstyle{\pageref{summer-nights}}, \textit{Towards Yucatán, II. Skywalker}, line 19-20: Marina Zvetajeva.
 
-%% Copyright details
-%% -----------------
+\pagerefstyle{\pageref{nachtasyl}}, \textit{Nachtasyl}, title: Secret NATO operation in post-war Europe linked to right-wing terror attacks.
 
-\cleartorecto
-\thispagestyle{plain}
-\input{./src-tex/copyright-details-aruno.tex}
+\pagerefstyle{\pageref{rilke}}, \textit{Karawane der Leichenwagen}, line 5-8: Variation on Rainer Maria Rilke's epitaph.
 
-\emptysheet
+}
 
 \end{document}

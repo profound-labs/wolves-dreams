@@ -39,23 +39,26 @@
 %% ============================
 
 \usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
 
+% Renderer = Basic is needed for the -- dashes to work.
+% http://tex.stackexchange.com/questions/20580/how-to-enable-ligatures-for-emdash-endash-in-luatex
 \setmainfont[
-  Ligatures = TeX,
+  Renderer = Basic,
   BoldFont = Shaker 2 Bold,
   ItalicFont = Shaker 2 Italic,
 ]{Shaker 2 Regular}
 
-\newfontfamily\chapTitleFont[Ligatures = TeX]{Shaker 2 Regular}
-\newfontfamily\chapNameFont[Ligatures = TeX]{Shaker 2 Regular}
-\newfontfamily\chapNumFont[Ligatures = TeX]{Shaker 2 Regular}
+\newfontfamily\chapTitleFont{Shaker 2 Regular}
+\newfontfamily\chapNameFont{Shaker 2 Regular}
+\newfontfamily\chapNumFont{Shaker 2 Regular}
 
-\newfontfamily\sectionFont[Ligatures = TeX]{Shaker 2 Regular}
+\newfontfamily\sectionFont{Shaker 2 Regular}
 
-\newfontfamily\headFont[Ligatures = TeX]{Shaker 2 Regular}
-%\newfontfamily\footFont[Ligatures = TeX]{Shaker 2 Regular}
-%\newfontfamily\footFont[Ligatures = TeX]{Shaker 2 Regular}
-\newfontfamily\footFont[Ligatures = TeX, Numbers = OldStyle]{Crimson Roman}
+\newfontfamily\headFont{Shaker 2 Regular}
+%\newfontfamily\footFont{Shaker 2 Regular}
+%\newfontfamily\footFont{Shaker 2 Regular}
+\newfontfamily\footFont[Numbers = OldStyle]{Crimson Roman}
 
 % lettrineFirstLetter
 % lettrineWords
@@ -71,7 +74,7 @@
 \setlength{\parindent}{17pt}
 
 % \setlength{\vgap}{1.5em}
-% \setlength{\vleftmargin}{2em}
+\setlength{\vleftmargin}{0pt}
 
 \setlength{\vindent}{\vgap}
 
@@ -115,7 +118,7 @@
 \geometry{
 paperwidth=5.25in,
 paperheight=8in,
-textwidth=95mm,
+textwidth=90mm,
 lines=27,
 %textheight=150mm,
 outer=17mm
@@ -244,7 +247,7 @@ outer=17mm
 
 \renewenvironment{quote}%
                {\list{}{\rightmargin 0.8em%
-                        \leftmargin 3.5em}%
+                        \leftmargin 3em}%
                 \item[]}%
                {\endlist}
 
@@ -285,9 +288,14 @@ outer=17mm
 }
 
 \newcommand{\verseDedication}[1]{%
-  \vspace*{-1.5em}%
-  \hspace*{5em}\emph{#1}%
+\hspace*{2em}\emph{\smaller #1}%
 }
+
+\newcommand{\quoteAttribute}[1]{%
+\hspace*{2em}{\upshape\smaller #1}%
+}
+
+\newcommand\pagerefstyle[1]{{{\smaller p}\hspace*{-1pt} \footFont #1.}}
 
 %% =======================
 %% Renewing package macros
@@ -331,8 +339,8 @@ outer=17mm
   }
   \makeevenhead{normalpage}{}{}{}
   \makeoddhead{normalpage}{}{}{}
-  \makeevenfoot{normalpage}{}{}{\footFont\thepage\hspace*{2em}}
-  \makeoddfoot{normalpage}{\hspace*{2em}\footFont\thepage}{}{}
+  \makeevenfoot{normalpage}{}{}{\footFont\thepage}
+  \makeoddfoot{normalpage}{\footFont\thepage}{}{}
 
 \pagestyle{normalpage}
 
@@ -413,7 +421,10 @@ outer=17mm
 
 \makechapterstyle{backmatter}{%
   \chapterstyle{mainmatter}%
-  \printchapternonum%
+  \setlength{\beforechapskip}{0pt}
+  \setlength{\midchapskip}{0pt}
+  \renewcommand*{\printchapternum}{\chapnumfont\mbox{}\afterchapternum}
+  \renewcommand*{\printchapternonum}{\chapnumfont\mbox{}\afterchapternum}
 }
 
 \chapterstyle{default}
