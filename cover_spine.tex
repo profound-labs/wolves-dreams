@@ -1,0 +1,39 @@
+\documentclass[11pt,final]{article}
+
+\makeatletter
+
+\usepackage[cmyk]{xcolor}
+
+\usepackage[pdftex]{graphicx}
+\graphicspath{{./src-images/}}
+
+\usepackage{geometry}
+% spine width:
+% (158 pages / 2) * 0.106 + 1mm = 9.374mm
+\geometry{
+paperheight=10mm,
+paperwidth=8in,
+nohead,
+nofoot,
+margin=0pt
+}
+\usepackage{fontspec}
+\setmainfont[Ligatures = TeX]{Shaker 2 Regular}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\makeatother
+
+\begin{document}
+%\pagecolor[RGB]{137, 101, 82}
+%\color[gray]{0.9}
+\raggedleft
+\begin{minipage}[c][\paperheight][c]{\paperwidth}
+\hspace*{28mm}
+Wolves, Dreams, Transformations\hspace*{1em}
+{\color[gray]{0.5}Wölfe, Träume, Verwandlungen}
+\hfill
+\raisebox{-0.5mm}{\includegraphics[angle=90,height=4mm]{buddho.png}}
+\hspace*{15mm}
+\end{minipage}
+\end{document}

@@ -1,0 +1,59 @@
+\documentclass[12pt,oneside,final]{memoir}
+
+\makeatletter
+
+\usepackage[cmyk]{xcolor}
+
+%% 5.25in x 8in
+%% 133.4mm x 203.2mm
+
+\usepackage{geometry}
+\geometry{
+paperwidth=5.25in,
+paperheight=8in,
+top=28mm,
+bottom=20mm,
+left=0mm,
+right=15mm,
+nohead,
+nofoot,
+}
+\setstocksize{8in}{5.25in}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
+\setmainfont[
+%  Renderer = Basic,
+%  BoldFont = Shaker 2 Bold,
+  ItalicFont = Shaker 2 Italic,
+]{Shaker 2 Regular}
+
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+
+%\newcommand{\titlesize}{\@setfontsize\titlesize{13}{16.5}}
+
+\makeatother
+
+\begin{document}
+
+\raggedleft
+
+{\LARGE
+Wolves, Dreams, Transformations
+\vspace*{0.3em}
+
+{\color[gray]{0.5}Wölfe, Träume, Verwandlungen}
+}
+
+\vfill
+
+{\Large
+{\color[gray]{0.5}\textit{poems by}}
+\vspace*{0.3em}
+
+Bhikkhu Abhinando
+}
+
+\end{document}
