@@ -4,7 +4,7 @@
 %% Packages to be loaded FIRST
 %% ===========================
 
-\usepackage[german]{babel}
+\usepackage[british]{babel}
 
 \usepackage{nag}
 \usepackage{calc}
@@ -56,14 +56,12 @@
 \newfontfamily\sectionFont{Shaker 2 Regular}
 
 \newfontfamily\headFont{Shaker 2 Regular}
-%\newfontfamily\footFont{Shaker 2 Regular}
-%\newfontfamily\footFont{Shaker 2 Regular}
 \newfontfamily\footFont[Numbers = OldStyle]{Crimson Roman}
 
 % lettrineFirstLetter
 % lettrineWords
 
-\newfontfamily\tocPageNumFont[Ligatures = TeX]{Shaker 2 Regular}
+\newfontfamily\tocPageNumFont[Numbers = OldStyle]{Crimson Roman}
 
 % \addfontfeature{Kerning = Uppercase}
 
@@ -288,7 +286,7 @@ outer=17mm
 }
 
 \newcommand{\verseDedication}[1]{%
-\hspace*{2em}\emph{\smaller #1}%
+\hspace*{5em}\emph{\smaller #1}%
 }
 
 \newcommand{\quoteAttribute}[1]{%
@@ -342,6 +340,8 @@ outer=17mm
   \makeevenfoot{normalpage}{}{}{\footFont\thepage}
   \makeoddfoot{normalpage}{\footFont\thepage}{}{}
 
+\aliaspagestyle{chapter}{normalpage}
+
 \pagestyle{normalpage}
 
 %% ============
@@ -359,7 +359,8 @@ outer=17mm
 }
 
 \renewcommand{\cftchapterfont}{\chapTitleFont\chaptitlesize\color{chaptitle}}
-\renewcommand{\cftchapterpagefont}{\tocPageNumFont\normalsize\color{chaptitle}}
+\renewcommand{\cftchapterpagefont}{\tocPageNumFont\normalsize}
+
 \renewcommand{\cftchapterpresnum}[1]{}
 \setlength{\cftchapternumwidth}{0pt}
 \renewcommand{\chapternumberline}[1]{}
