@@ -1,2 +1,9 @@
-#!/bin/sh
-for i in ./src-tex_epub/*.tex; do echo $i; pandoc --smart --normalize -f latex -t html -o ./src-html/`basename $i`.html "$i"; done
+#!/bin/bash
+
+for i in ./src-tex_epub/*.tex
+do
+  outfile="./src-html/`basename $i`.html"
+  echo $i
+  pandoc --smart --normalize -f latex -t html -o "$outfile" "$i"
+  sed -i 's/<\/*blockquote>//g' "$outfile"
+done
