@@ -37,6 +37,9 @@ cover-all:
 	make cover-spine
 	make cover
 
+html-src:
+	to-html.sh
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 
