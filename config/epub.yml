@@ -1,0 +1,21 @@
+
+assets: [ './assets/webfonts/', './assets/images/', './assets/stylesheets/' ]
+
+exclude_assets: [ 'ie.css', 'print.css', 'style-mobi.css', '*.swp', '.gitkeep' ]
+
+#title: "Middlemarch"
+#author: "George Eliot"
+#version: "v0.1"
+#date: "2013-08-15"
+#
+#toc:
+#  - { title: "Cover", src: 'cover.xhtml.erb', target: [ 'epub' ], layout: none, type: 'cover', id: 'cover', linear: 'no' }
+#  - { title: "Title Page", src: 'titlepage.xhtml.erb', target: [ 'epub', 'mobi' ], type: 'title-page', id: 'title-page' }
+#  - { title: "Contents", src: 'toc.xhtml.erb', target: [ 'epub', 'mobi' ], layout: none, type: 'toc', }
+#  - { title: "Book III", src: 'book3.html', type: 'text' }
+#  - { title: "Chapter 23", src: 'chapter23.html' }
+#  - { title: "Chapter 24", src: 'chapter24.html' }
+#  - { title: "Book V", src: 'book5.html' }
+#  - { title: "Chapter 43", src: 'chapter43.html' }
+#  - { title: "Chapter 46", src: 'chapter46.html' }
+

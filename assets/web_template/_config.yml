@@ -1,0 +1,5 @@
+name: Your New Jekyll Site
+markdown: kramdown
+pygments: true
+destination: ../../publish/web/
+

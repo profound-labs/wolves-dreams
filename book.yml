@@ -1,0 +1,117 @@
+
+# General
+# =======
+
+# The data in this file is shared between output formats. Custom data
+# and settings go in the config/*.yml files.
+
+title: "Wolves, Dreams, Transformations"
+subtitle: ""
+author: "Bhikkhu Abhinando"
+version: "v0.1"
+date: "2013-08-22"
+
+# Language and region, ISO 639-1 and ISO 3166-1
+# http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+# http://en.wikipedia.org/wiki/ISO_3166-1
+
+lang: "en-GB"
+
+# A general-purpose Table of Contents. Formats will be converted as
+# necessary. A specific TOC for an output format can be given in the
+# corresponding config/*.yml file.
+#
+# Types (roles): http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
+
+# Level 0, 1, 2
+section_names: [ "Part", "Chapter", "Section" ]
+
+tex_dir: './manuscript/tex_web'
+
+toc:
+  - { the_matter: frontmatter }
+  - { insert: "\\emptysheet\n\\frontmatter*\n\\chapterstyle{frontmatter}", target: latex }
+  - { title: "Cover", src: 'cover.xhtml.erb', target: epub, layout: none, type: cover, linear: no }
+  - { title: "Title Page", src: 'titlepage.xhtml.erb', target: epub, type: title-page }
+  - { title: "Title Page", src: "titlepage.tex", target: latex }
+  - { title: "Contents", src: 'toc.xhtml.erb', target: epub, type: toc }
+  - { title: "Copyright", src: 'copyright-aruno.md', target: [ epub, mobi ], type: copyright-page }
+  - { title: "Copyright", src: 'copyright-aruno.tex', target: latex }
+  - { title: "Dedication", src: 'dedication.tex', type: dedication }
+  - { insert: "\\cleartoverso\n\\tableofcontents*", target: latex }
+  - { title: "Title Page", src: 'titlepage.xhtml.erb', target: mobi, type: text, class: title-page }
+  - { title: "Contents", src: 'toc.xhtml.erb', target: mobi, type: toc }
+  - { the_matter: mainmatter, section_number: 1  }
+  - { insert: "\\mainmatter*\n\\setcounter{chapter}{0}\n\\chapterstyle{mainmatter}", target: latex }
+  - { title: "Wölfe | Wolves", src: 'part1.html', target: [ epub, mobi ], class: part-page }
+  - { insert: "\\part{Wölfe | Wolves}", target: latex }
+  - { level: 1, src: "die-fliegen.tex" }
+  - { level: 1, src: "vier-schritte.tex" }
+  - { level: 1, src: "herzwolf.tex" }
+  - { level: 1, src: "hotel-zur.tex" }
+  - { level: 1, src: "der-sprach.tex" }
+  - { level: 1, src: "sostenuto.tex" }
+  - { level: 1, src: "tiere-die.tex" }
+  - { level: 1, src: "schattenwolf.tex" }
+  - { level: 1, src: "kein-ende.tex" }
+  - { level: 1, src: "engel-hab.tex" }
+  - { level: 1, src: "einsiedler-auf.tex" }
+  - { level: 1, src: "schwester.tex" }
+  - { level: 1, src: "die-stille.tex" }
+  - { level: 1, src: "an-der.tex" }
+  - { title: "Träume | Dreams", src: 'part2.html', target: [ epub, mobi ], class: part-page }
+  - { insert: "\\part{Träume | Dreams}", target: latex }
+  - { level: 1, src: "traumkasten.tex" }
+  - { level: 1, src: "hohes-gras.tex" }
+  - { level: 1, src: "aquamarina.tex" }
+  - { level: 1, src: "auf-dem.tex" }
+  - { level: 1, src: "selbst.tex" }
+  - { level: 1, src: "kaktus.tex" }
+  - { level: 1, src: "wo-die.tex" }
+  - { level: 1, src: "aureola.tex" }
+  - { level: 1, src: "operation-gladio.tex" }
+  - { level: 1, src: "flussabwarts.tex" }
+  - { level: 1, src: "nachtasyl.tex" }
+  - { level: 1, src: "blinder-prophet.tex" }
+  - { level: 1, src: "schuppentier.tex" }
+  - { level: 1, src: "himmelwarts.tex" }
+  - { level: 1, src: "spiegelsaal.tex" }
+  - { title: "Verwandlungen | Transformations", src: 'part3.html', target: [ epub, mobi ], class: part-page }
+  - { insert: "\\part{Verwandlungen | Transformations}", target: latex }
+  - { level: 1, src: "karawane.tex" }
+  - { level: 1, src: "als-er.tex" }
+  - { level: 1, src: "haus-auf.tex" }
+  - { level: 1, src: "blindenhund.tex" }
+  - { level: 1, src: "flussig.tex" }
+  - { level: 1, src: "fiesta.tex" }
+  - { level: 1, src: "chapultepec.tex" }
+  - { level: 1, src: "unbeschriebener.tex" }
+  - { level: 1, src: "mit-heiserer.tex" }
+  - { level: 1, src: "der-elektrische.tex" }
+  - { level: 1, src: "dieser-wind.tex" }
+  - { level: 1, src: "gewohnliche.tex" }
+  - { the_matter: backmatter }
+  - { insert: "\\bookmarksetup{startatroot}\n\\chapterstyle{backmatter}", target: latex }
+  - { title: "Notes", src: 'notex.tex' }
+
+#  - { title: "About the Author", src: 'about.tex' }
+#  - { title: "Colophon", src: 'colophon.md', type: colophon }
+
+cover_image: "cover.jpg"
+
+# Either an ISBN or an UUID is necessary to identify the book.
+# If you don't have an ISBN, generate an UUID:
+# http://www.famkruithof.net/uuid/uuidgen
+
+# uuid: "000-000"
+isbn: "978-1-908444-32-5"
+publisher: "Aruno Publications"
+publisher_atag: "<a href='http://ratanagiri.org.uk/' target='_blank'>www.ratanagiri.org.uk</a>"
+publisher_logo: "buddho.jpg"
+book_atag: "<a href='http://dhammamoon.org/' target='_blank'>www.dhammamoon.org</a>"
+
+rights: "Copyright © 2013 Bhikkhu Abhinando. No part of this book may be reproduced in any form without written permission from the author."
+creator: "Bhikkhu Gambhiro"
+
+epubcheck_path: '~/bin/epubcheck-3.0.1.jar'
+
