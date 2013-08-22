@@ -26,11 +26,11 @@ lang: "en-GB"
 # Level 0, 1, 2
 section_names: [ "Part", "Chapter", "Section" ]
 
-tex_dir: './manuscript/tex_web'
+tex_dir: './manuscript/tex_web/'
 
 toc:
   - { the_matter: frontmatter }
-  - { insert: "\\emptysheet\n\\frontmatter*\n\\chapterstyle{frontmatter}", target: latex }
+  - { insert: "\\emptysheet\n\\frontmatter*", target: latex }
   - { title: "Cover", src: 'cover.xhtml.erb', target: epub, layout: none, type: cover, linear: no }
   - { title: "Title Page", src: 'titlepage.xhtml.erb', target: epub, type: title-page }
   - { title: "Title Page", src: "titlepage.tex", target: latex }
@@ -92,7 +92,7 @@ toc:
   - { level: 1, src: "gewohnliche.tex" }
   - { the_matter: backmatter }
   - { insert: "\\bookmarksetup{startatroot}\n\\chapterstyle{backmatter}", target: latex }
-  - { title: "Notes", src: 'notex.tex' }
+  - { title: "Notes", src: 'notes.tex' }
 
 #  - { title: "About the Author", src: 'about.tex' }
 #  - { title: "Colophon", src: 'colophon.md', type: colophon }

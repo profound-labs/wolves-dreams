@@ -230,7 +230,7 @@ module VolumeOne
       if @src
         ret += "% #{@title}\n" unless @title.empty?
         if File.extname(@src) == '.tex'
-          ret += "\\input{../../manuscript/tex/#{@src}}"
+          ret += "\\input{" + File.join('..', '..', @book.tex_dir, @src) + "}"
         else
           ret += "\\input{#{@href}}"
         end
