@@ -1,0 +1,27 @@
+Spiegelsaal
+===========
+
+> Nicht jede Tür\\
+> muss geöffnet werden\\
+> nicht jeder Schlüssel\\
+> will gefunden sein
+>
+> O reiner Widerspruch\\
+> das Fehlen der Achse\\
+> so vieler Dinge zu sein\\
+> in niemandes Traum
+
+Hall of Mirrors
+===============
+
+[hall-of-mirrors]
+
+> Not every door\\
+> needs to be opened\\
+> not every key\\
+> wants to be found
+>
+> O pure contradiction\\
+> to be the lack of an axis\\
+> for so many things\\
+> in nobody’s dream

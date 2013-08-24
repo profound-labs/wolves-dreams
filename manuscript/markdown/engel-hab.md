@@ -1,0 +1,74 @@
+=
+
+Engel Hab Ich Mir Abgewöhnt
+===========================
+
+> Der Engel mit dem Nesselflügel streift mein Gesicht,\\
+> heute, gestern, immer wieder,\\
+> und von meinen vertrocknenden Lippen\\
+> starten die Vögel.
+>
+> Der Engel mit dem Kirschblütenlächeln\\
+> vergibt mir schon wieder ein von der Zeit\\
+> längst überholtes Versprechen.\\
+> Sein hilfloser Blick\\
+> durchlöchert mich.
+>
+> Der Engel mit den verschrumpelten Händen\\
+> stellt Fallen auf – ich weiß nicht wofür,\\
+> ist er doch selbst wie ein Nagetier\\
+> in den Kellergängen\\
+> des guten Gewissens.
+>
+> Der Engel der Verwesung –\\
+> Schutzheiliger der Verschwundenen –\\
+> brach sich einmal an mir seine Flügel\\
+> wie ein Vogel, ein ganz gewöhnlicher.
+>
+> Jetzt wetzt er seinen Schnabel\\
+> an meinen steinharten Lippen.
+>
+> Ich bin allein mit meinem Verdacht\\
+> und den scheppernden Sternen\\
+> einer mechanischen Nacht,\\
+> wie ein unvollendeter Engel,\\
+> der wartet\\
+> auf sein Federkleid.
+
+I Abandoned the Habit of Angels
+===============================
+
+[carousel]
+
+> The angel with the nettle-wing touches my face,\\
+> today, yesterday, and again and again,\\
+> and the birds take off\\
+> from my withering lips.
+>
+> The angel with a smile of cherry-blossom\\
+> forgives me yet another promise\\
+> outlived by time.\\
+> His helpless gaze\\
+> rips me to pieces.
+>
+> The angel with shrivelled hands\\
+> puts out traps – I don’t know for what\\
+> as he himself is a rodent\\
+> in the catacombs\\
+> of innocence.
+>
+> The angel of putrefaction –\\
+> patron saint of the disappeared –\\
+> once broke his wings on me,\\
+> like an ordinary bird.
+>
+> Now he sharpens his beak\\
+> on my stony lips.
+>
+> I am alone with my suspicion\\
+> and the clanking stars\\
+> of a mechanical night\\
+> like an unfinished angel\\
+> waiting for his feathers.
+
+=

@@ -1,3 +1,60 @@
 
 edition: "\\textit{First edition}, 2013\\\\ Printed in the U.K. by Remous Ltd, Sherborne, Dorset"
 
+toc:
+  - { the_matter: frontmatter }
+  - { insert: "\\emptysheet\n\\frontmatter*", target: latex }
+  - { title: "Title Page", src: "titlepage.tex", target: latex }
+  - { title: "Copyright", src: 'copyright-aruno.tex', target: latex }
+  - { title: "Dedication", src: 'dedication.tex', type: dedication }
+  - { insert: "\\cleartoverso\n\\tableofcontents*", target: latex }
+  - { the_matter: mainmatter, section_number: 1  }
+  - { insert: "\\mainmatter*\n\\setcounter{chapter}{0}\n\\chapterstyle{mainmatter}", target: latex }
+  - { insert: "\\part{Wölfe | Wolves}", target: latex }
+  - { level: 1, src: "die-fliegen.tex" }
+  - { level: 1, src: "vier-schritte.tex" }
+  - { level: 1, src: "herzwolf.tex" }
+  - { level: 1, src: "hotel-zur.tex" }
+  - { level: 1, src: "der-sprach.tex" }
+  - { level: 1, src: "sostenuto.tex" }
+  - { level: 1, src: "tiere-die.tex" }
+  - { level: 1, src: "schattenwolf.tex" }
+  - { level: 1, src: "kein-ende.tex" }
+  - { level: 1, src: "engel-hab.tex" }
+  - { level: 1, src: "einsiedler-auf.tex" }
+  - { level: 1, src: "schwester.tex" }
+  - { level: 1, src: "die-stille.tex" }
+  - { level: 1, src: "an-der.tex" }
+  - { insert: "\\part{Träume | Dreams}", target: latex }
+  - { level: 1, src: "traumkasten.tex" }
+  - { level: 1, src: "hohes-gras.tex" }
+  - { level: 1, src: "aquamarina.tex" }
+  - { level: 1, src: "auf-dem.tex" }
+  - { level: 1, src: "selbst.tex" }
+  - { level: 1, src: "kaktus.tex" }
+  - { level: 1, src: "wo-die.tex" }
+  - { level: 1, src: "aureola.tex" }
+  - { level: 1, src: "operation-gladio.tex" }
+  - { level: 1, src: "flussabwarts.tex" }
+  - { level: 1, src: "nachtasyl.tex" }
+  - { level: 1, src: "blinder-prophet.tex" }
+  - { level: 1, src: "schuppentier.tex" }
+  - { level: 1, src: "himmelwarts.tex" }
+  - { level: 1, src: "spiegelsaal.tex" }
+  - { insert: "\\part{Verwandlungen | Transformations}", target: latex }
+  - { level: 1, src: "karawane.tex" }
+  - { level: 1, src: "als-er.tex" }
+  - { level: 1, src: "haus-auf.tex" }
+  - { level: 1, src: "blindenhund.tex" }
+  - { level: 1, src: "flussig.tex" }
+  - { level: 1, src: "fiesta.tex" }
+  - { level: 1, src: "chapultepec.tex" }
+  - { level: 1, src: "unbeschriebener.tex" }
+  - { level: 1, src: "mit-heiserer.tex" }
+  - { level: 1, src: "der-elektrische.tex" }
+  - { level: 1, src: "dieser-wind.tex" }
+  - { level: 1, src: "gewohnliche.tex" }
+  - { the_matter: backmatter }
+  - { insert: "\\bookmarksetup{startatroot}\n\\chapterstyle{backmatter}", target: latex }
+  - { title: "Notes", src: 'notes.tex' }
+

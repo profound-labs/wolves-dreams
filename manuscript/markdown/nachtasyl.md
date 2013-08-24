@@ -1,0 +1,31 @@
+Nachtasyl
+=========
+
+> Diesseits der Absicht zu handeln\\
+> oder nicht zu handeln\\
+> im unbewegten Zentrum des Bösen\\
+> des Guten\\
+> und der Gleichgültigkeit
+>
+> knabbert eine Maus an der Leitung\\
+> Wir hören das Knacken das Rauschen\\
+> und die wärmende Stimme\\
+> die Trost wie Suppe verteilt\\
+> und mit delikaten Fingern zerbricht\\
+> was wir einander versprechen
+
+One-Night Shelter
+=================
+
+> On the near side of the intention to act\\
+> or not to act\\
+> in the unmoving centre of evil\\
+> good\\
+> and indifference
+>
+> a mouse is gnawing at the cables\\
+> We hear the crackling the white noise\\
+> and the warming voice\\
+> that dishes out consolation\\
+> like soup and breaks with delicate fingers\\
+> what we promise each other

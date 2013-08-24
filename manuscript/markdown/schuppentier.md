@@ -1,0 +1,76 @@
+Schuppentier
+============
+
+> In der unterirdischen Galerie\\
+> verfolgt dich der schielende Wolf\\
+> mit seinem starren Blick,\\
+> der Tod in der Schachtel, mit sieben\\
+> Beinen und einem Widerhaken.\\
+> Den hast du verschluckt als du dachtest:\\
+> *Alles ist einfach, das Leben ist schön*.\\
+> Jetzt hängt er fest in der Leber und wetzt\\
+> seine Klauen im Schlaf. Und der Schlaf\\
+> rollt mit den Augen des Wolfes, zuckt\\
+> mit seinem Fell.
+>
+> In der unterirdischen Galerie\\
+> beäugen dich Träume, die\\
+> allem widersprechen, woran\\
+> du so starrsinnig glaubst –\\
+> In ausgedienten Folterkammern:\\
+> Museumsstücke fast wie neu,\\
+> ein Lied von Brahms noch auf dem Streckbett,\\
+> wie ein Stachel in der Kehle\\
+> des guten Gewissens.
+>
+> Und irgendwo draußen streift\\
+> das Schuppentier durch den Wald\\
+> auf der Suche nach einem Mittel\\
+> gegen den tödlichen Glauben\\
+> der Heilkünstler und Schamanen.
+>
+> Aber hier in den Wänden\\
+> träumen Termiten\\
+> von einer Welt\\
+> ohne dich, ohne mich, ohne Schuppentier.
+>
+> Du hörst das Geraschel\\
+> von hunderttausend hurtigen Schritten,\\
+> dann plötzlich\\
+> geht das Licht aus.
+
+Pangolin
+========
+
+> Inside the underground gallery a cross-eyed wolf\\
+> is following you with its stare,\\
+> death-in-the-box with seven legs\\
+> and a hook. The one\\
+> you swallowed when you thought:\\
+> *everything is easy, life is beautiful*.\\
+> Now it hangs tight in your liver and sharpens\\
+> its claws in its sleep.\\
+> And sleep rolls the eyes of the wolf,\\
+> twitches its fur.
+>
+> Inside the underground gallery\\
+> dreams look at you that contradict\\
+> everything you so stubbornly believe in:\\
+> decommissioned torture-chambers\\
+> with museum pieces as good as new,\\
+> a song by Brahms still on the rack\\
+> like a thorn in the throat\\
+> of *no regrets*.
+>
+> And somewhere outside\\
+> a pangolin is roaming the forest in search\\
+> of a remedy against the deadly faith\\
+> of shamans and healers.
+>
+> But here in the walls\\
+> termites dream of a world without a dreamer,\\
+> without you, without me, without pangolin.
+>
+> You hear a million hurried footsteps,\\
+> then suddenly the light\\
+> goes out.

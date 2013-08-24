@@ -92,7 +92,7 @@ a
   h1, h2
     letter-spacing: 1.5pt
   h1
-    font-size: 2.8em
+    font-size: 2em
     text-transform: uppercase
     margin-top: 0
     margin-bottom: 0.2em
@@ -100,13 +100,13 @@ a
     padding-right: $headerRightMargin + $contentPadding
     line-height: 1em
   h2
-    font-size: 2.2em
+    font-size: 1.5em
     margin-top: 0
     margin-bottom: 0.3em
     padding-top: 0.3em
     padding-right: $headerRightMargin
   h3
-    font-size: 1.5em
+    font-size: 1.2em
     margin-bottom: 3em
     padding-right: $headerRightMargin
 
@@ -154,6 +154,10 @@ blockquote.epigraph,
     padding-top: 0
     margin-top: 2pt
 
+#content.verse blockquote
+  font-style: normal
+  font-size: 1em
+
 /* The attribution of the blockquote is a span
 span.attribution,
 p.attribution
@@ -181,10 +185,11 @@ p.attribution-name
 // #content-title .author
 
 p
-  text-indent: 1.7em
-  margin-top: 2pt
-  padding-top: 0
   text-align: justify
+  // Unreliable results. The ebook readers mess up parskip and parindent.
+  //text-indent: 1.7em
+  //margin-top: 2pt
+  //padding-top: 0
 
 /* The first paragraph in the work has a class called "noindent" which
  * suppresses any paragraph indentation applied by default, but you
@@ -236,8 +241,11 @@ pre
 .small
   font-size: 0.9em
 
-.tiny
+.footnotesize
   font-size: 0.8em
+
+.tiny
+  font-size: 0.7em
 
 .noborder
   border: none

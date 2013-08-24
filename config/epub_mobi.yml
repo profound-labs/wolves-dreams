@@ -2,13 +2,13 @@
 # Epub and Mobi
 # =============
 
-bookid: "VolumeOneBookId"
+bookid: "WolvesDreamsTransformations"
 
 # BISAC Subject Headings List:
 # http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php
 
 subject: LIST / OF / SUBJECTS
-source: http://www.source.org/
+source: http://dhammamoon.org/
 
 # MARC Code List for Relators:
 # Editor [edt], Cover designer [cov], Translator [trl]
@@ -19,4 +19,71 @@ contributors:
   - edt: Other Lastname, Name
   - cov: Lastname, Name
   - trl: Lastname, Name
+
+# Level 1, 2, 3
+section_names: [ "Part", "", "" ]
+
+toc:
+  - { the_matter: frontmatter }
+  - { title: "Cover", src: 'cover.xhtml.erb', target: epub, layout: none, type: cover, linear: no }
+  - { title: "Title Page", src: 'titlepage.xhtml.erb', target: epub, type: title-page }
+  - { title: "Device Settings", src: 'device-settings.md', target: epub }
+  - { title: "Contents", src: 'toc.xhtml.erb', target: epub, type: toc }
+  - { title: "Copyright", src: 'copyright-aruno.md.erb', target: [ epub, mobi ], type: copyright-page, class: footnotesize }
+  - { title: "Dedication", src: 'dedication.md', type: dedication }
+  - { title: "Title Page", src: 'titlepage.xhtml.erb', target: mobi, type: text, class: title-page }
+  - { title: "Device Settings", src: 'device-settings.md', target: mobi }
+  - { title: "Contents", src: 'toc.xhtml.erb', target: mobi, type: toc }
+  - { the_matter: mainmatter, section_number: 1  }
+  - { title: "Wölfe | Wolves", src: 'part1.html', target: [ epub, mobi ], class: part-page }
+  - { toc_from_headers: true }
+  - { level: 2, src: "die-fliegen.md", class: verse }
+  - { level: 2, src: "vier-schritte.md", class: verse }
+  - { level: 2, src: "herzwolf.md", class: verse }
+  - { level: 2, src: "hotel-zur.md", class: verse }
+  - { level: 2, src: "der-sprach.md", class: verse }
+  - { level: 2, src: "sostenuto.md", class: verse }
+  - { level: 2, src: "tiere-die.md", class: verse }
+  - { level: 2, src: "schattenwolf.md", class: verse }
+  - { level: 2, src: "kein-ende.md", class: verse }
+  - { level: 2, src: "engel-hab.md", class: verse }
+  - { level: 2, src: "einsiedler-auf.md", class: verse }
+  - { level: 2, src: "schwester.md", class: verse }
+  - { level: 2, src: "die-stille.md", class: verse }
+  - { level: 2, src: "an-der.md", class: verse }
+  - { toc_from_headers: false }
+  - { title: "Träume | Dreams", src: 'part2.html', target: [ epub, mobi ], class: part-page }
+  - { toc_from_headers: true }
+  - { level: 2, src: "traumkasten.md", class: verse }
+  - { level: 2, src: "hohes-gras.md", class: verse }
+  - { level: 2, src: "aquamarina.md", class: verse }
+  - { level: 2, src: "auf-dem.md", class: verse }
+  - { level: 2, src: "selbst.md", class: verse }
+  - { level: 2, src: "kaktus.md", class: verse }
+  - { level: 2, src: "wo-die.md", class: verse }
+  - { level: 2, src: "aureola.md", class: verse }
+  - { level: 2, src: "operation-gladio.md", class: verse }
+  - { level: 2, src: "flussabwarts.md", class: verse }
+  - { level: 2, src: "nachtasyl.md", class: verse }
+  - { level: 2, src: "blinder-prophet.md", class: verse }
+  - { level: 2, src: "schuppentier.md", class: verse }
+  - { level: 2, src: "himmelwarts.md", class: verse }
+  - { level: 2, src: "spiegelsaal.md", class: verse }
+  - { toc_from_headers: false }
+  - { title: "Verwandlungen | Transformations", src: 'part3.html', target: [ epub, mobi ], class: part-page }
+  - { toc_from_headers: true }
+  - { level: 2, src: "karawane.md", class: verse }
+  - { level: 2, src: "als-er.md", class: verse }
+  - { level: 2, src: "haus-auf.md", class: verse }
+  - { level: 2, src: "blindenhund.md", class: verse }
+  - { level: 2, src: "flussig.md", class: verse }
+  - { level: 2, src: "fiesta.md", class: verse }
+  - { level: 2, src: "chapultepec.md", class: verse }
+  - { level: 2, src: "unbeschriebener.md", class: verse }
+  - { level: 2, src: "mit-heiserer.md", class: verse }
+  - { level: 2, src: "der-elektrische.md", class: verse }
+  - { level: 2, src: "dieser-wind.md", class: verse }
+  - { level: 2, src: "gewohnliche.md", class: verse }
+  - { the_matter: backmatter }
+  - { title: "Notes", src: 'notes.md' }
 

@@ -4,8 +4,10 @@ require 'fileutils'
 require 'pathname'
 require 'yaml'
 require 'erb'
+require 'cgi'
 require 'mime/types'
 require 'kramdown'
+require 'nokogiri'
 require './assets/lib/book.rb'
 require './assets/lib/chapter.rb'
 require './assets/lib/manifest.rb'
@@ -118,6 +120,32 @@ namespace :latex do
   task :compile do
     @book ||= latex_init_book
     sh "cd #{@book.build_dir} && make"
+  end
+
+  task :to_markdown do
+    @book ||= latex_init_book
+
+    Dir[File.join(@book.tex_dir, '*.tex')].each do |f|
+      dest = File.expand_path(File.join(@book.markdown_dir, File.basename(f).sub(/\.tex$/, '.md')))
+      if File.exist?(dest)
+        print "WARNING: destination exists: #{dest}\nOverwrite? [yN] "
+        a = STDIN.gets.chomp()
+        if a.downcase != 'y'
+          puts "OK, skipping file"
+          next
+        end
+      end
+      r = system "/bin/bash ./assets/helpers/tex2md.sh '#{File.expand_path(f)}' '#{dest}'"
+      warn "WARNING: tex2md.sh returned non-zero for #{f}" unless r
+    end
+
+    #Dir[File.join(@book.latex_dir, '*.tex.erb'].each do |f|
+    #  template = ERB.new(IO.read(f))
+    #  text = template.result(binding)
+    #  #File.open(f.sub(/\.erb$/, ''), "w"){|file| file << text }
+    #  #FileUtils.rm(f)
+    #end
+
   end
 
 end

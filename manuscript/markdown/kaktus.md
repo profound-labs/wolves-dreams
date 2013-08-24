@@ -1,0 +1,61 @@
+Kaktus in Dünner Luft
+=====================
+
+> Der Horizont wiegt auf der Höhe seines Herzens,\\
+> drückt sanft mit blauen Noten\\
+> auf die Stimmungslage; seine Haut\\
+> wittert in kühlen, leichten,\\
+> locker gestaffelten Nebeln\\
+> wärmeres Licht.
+>
+> In der einfühlsamen Luft\\
+> zittern seine Blüten:\\
+> Fahnen der Sympathie.\\
+> Fast hebt er ab, seinen Bauch\\
+> drängt es zur Wolkendecke –\\
+> stacheliger Zeppelin.
+>
+> Er wiegt sich in den wechselnden Winden,\\
+> genießt die Aussicht\\
+> und das Ziehen der Leine\\
+> seiner luftigen Wurzel, der Nabelschnur.\\
+> Nährstoff steigt ihm durch das Geflecht\\
+> der Kapillaren zu Kopf.
+>
+> Ein kleiner, horizontale Schmerz in der Brust\\
+> hält ihn in schwebender Waage;\\
+> er trinkt und atmet und fühlt,\\
+> dass er die ganze winzige Welt\\
+> umarmen kann\\
+> mit seinen kitzligen Stacheln.
+
+Cactus in Thin Air
+==================
+
+> The horizon weighs in on the level of his heart,\\
+> pressing gently with blue notes\\
+> on the general mood;\\
+> in cool, light, loosely layered mist\\
+> his skin senses\\
+> warmer light.
+>
+> His flowers tremble\\
+> in empathetic air:\\
+> flags of sympathy.\\
+> He almost takes off, belly straining\\
+> for the clouds –\\
+> spiky zeppelin.
+>
+> He sways in the changing winds,\\
+> enjoys the view\\
+> and the pull of the line,\\
+> the air root, his umbilical cord.\\
+> Nutriment rises through the web of capillaries\\
+> to his head.
+>
+> A small horizontal pain in his chest\\
+> keeps him in fine-tuned suspension,\\
+> He drinks and breathes and feels\\
+> how he can embrace the entire\\
+> tiny world\\
+> with his ticklish spikes.

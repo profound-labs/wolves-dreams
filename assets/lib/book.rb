@@ -66,6 +66,7 @@ module VolumeOne
           @chapters << c unless c.render_path.nil?
         end
       end
+      @navpoints = @chapters.flat_map{|c| c.navpoints}
     end
 
     def generate_build
@@ -174,6 +175,24 @@ module VolumeOne
       when '.erb'
         self.format_dir(src.sub(/\.erb$/, ''))
       end
+    end
+
+    def render_navpoints
+      ret = ""
+      @navpoints.each_with_index do |nav, idx|
+        ret += "<navPoint id='nav#{nav['playOrder']}' playOrder='#{nav['playOrder']}'>\n"
+        ret += "<navLabel><text>#{nav['text']}</text></navLabel>\n"
+        ret += "<content src='#{nav['src']}'/>"
+
+        next_nav = @navpoints[idx+1]
+        if !next_nav.nil? && next_nav['level'] < nav['level']
+          d = nav['level'] - next_nav['level'] + 1
+          d.times{ ret += "</navPoint>\n" }
+        elsif next_nav.nil? || next_nav['level'] == nav['level']
+          ret += "</navPoint>\n"
+        end
+      end
+      ret
     end
 
     def personal_name_first(lastname_comma_name)

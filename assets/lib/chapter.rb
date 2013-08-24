@@ -5,11 +5,17 @@ module VolumeOne
 
     attr_accessor :title, :id, :idref, :lang, :class, :book, :level,
       :layout, :src, :path, :render_name, :render_path, :href, :type,
-      :linear, :prefix, :postfix, :insert, :section_name, :section_number
+      :linear, :prefix, :postfix, :insert, :section_name,
+      :section_number, :navpoints
 
-    # Array index corresponds to level, levels start from 0 too.
+    # Array index corresponds to level, levels index from 0 too. In the
+    # .yml you give the level: N attrib as if they were indexed from 1,
+    # makes more sense there, but we compensate for it in the class.
+
     @@section_name = [ "Chapter", ]
     @@section_number = [ 0, ]
+    @@toc_from_headers = false
+    @@playOrder = 1
 
     @@the_matter = 'frontmatter'
 
@@ -18,9 +24,9 @@ module VolumeOne
 
       if @book.output_format == 'mobi'
         unless config['level'].nil?
-          lvl = config['level'].to_i
-          if lvl > 2
-            @level = 2
+          lvl = config['level'].to_i - 1
+          if lvl > 1
+            @level = 1
           else
             @level = lvl
           end
@@ -28,7 +34,11 @@ module VolumeOne
           @level = 0
         end
       else
-        @level = config['level'].to_i
+        if config['level'].nil?
+          @level = 0
+        else
+          @level = config['level'].to_i - 1
+        end
       end
 
       if config['the_matter']
@@ -90,7 +100,7 @@ module VolumeOne
       end
 
       @type = config['type'] || nil
-      @title = config['title'] || ""
+      @title = config['title'] || self.first_header_text || ""
       @class = config['class'] || ""
       @class += " #{@type}" if @type
       @id = config['id'] || 'chapter_' + @title.downcase.gsub(/[^a-z0-9-]/, '-').gsub(/--+/, '-')
@@ -98,6 +108,7 @@ module VolumeOne
       @prefix = config['prefix'] || nil
       @postfix = config['postfix'] || nil
       @insert = config['insert'] || nil
+
       if config['section_name']
         @@section_name[@level] = config['section_name']
       else
@@ -106,11 +117,38 @@ module VolumeOne
         @@section_number[@level] = config['section_number'].to_i - 1
       elsif @@section_number[@level].nil?
         @@section_number[@level] = 1
-      else
-        @@section_number[@level] = @@section_number[@level] + 1
+      elsif !@path.nil?
+        @@section_number[@level] += 1
       end
       @section_name = @@section_name[@level]
       @section_number = @@section_number[@level]
+
+      @@toc_from_headers = config['toc_from_headers'] unless config['toc_from_headers'].nil?
+
+      @navpoints = []
+      if @path
+        if @@toc_from_headers
+          doc = Nokogiri::HTML(self.to_html)
+          headers = doc.xpath("//*[name()='h1' or name()='h2' or name()='h3' or name()='h4']")
+          headers.each do |h|
+            @navpoints << {
+              'text' => CGI.escapeHTML(h.text),
+              'src' => "chapters/#{@render_name}##{h.attributes['id']}",
+              'playOrder' => @@playOrder,
+              'level' => @level,
+            }
+            @@playOrder += 1
+          end
+        else
+          @navpoints << {
+            'text' => @title,
+            'src' => "chapters/#{@render_name}",
+            'playOrder' => @@playOrder,
+            'level' => @level,
+          }
+          @@playOrder += 1
+        end
+      end
 
       if config['layout'].nil?
         @layout_path = File.join(book.layouts_dir, book.chapter_layout)
@@ -125,6 +163,16 @@ module VolumeOne
       self.book.manifest.items.select do |i|
         File.expand_path(i.path) == self.render_path
       end.first.id
+    end
+
+    def first_header_text
+      if @path
+        doc = Nokogiri::HTML(self.to_html)
+        h = doc.xpath("//*[name()='h1' or name()='h2' or name()='h3' or name()='h4']").first
+        h.text.strip if h
+      else
+        nil
+      end
     end
 
     def to_guide_reference
@@ -150,7 +198,8 @@ module VolumeOne
         ret = Kramdown::Document.new(text).to_html
       when '.tex'
         File.open('./temp-chapter.tex', 'w'){|f| f << text }
-        system 'pandoc --smart --normalize --from=latex --to=html -o ./temp-chapter.xhtml ./temp-chapter.tex'
+        r = system 'pandoc --smart --normalize --from=latex --to=html -o ./temp-chapter.xhtml ./temp-chapter.tex'
+        warn "WARNING: pandoc returned non-zero for #{self.to_s}" unless r
         ret = IO.read('./temp-chapter.xhtml')
         FileUtils.rm(['./temp-chapter.tex', './temp-chapter.xhtml'])
       when '.erb'
@@ -208,20 +257,6 @@ module VolumeOne
       ret += " />"
     end
 
-    def to_navpoint(idx)
-      ret = "<navPoint id='navpoint#{idx}' playOrder='#{idx}'>\n"
-      ret += "<navLabel><text>#{@title}</text></navLabel>\n"
-      ret += "<content src='chapters/#{@render_name}'/>\n"
-      next_chapter = self.book.chapters[idx+1]
-      if !next_chapter.nil? && next_chapter.level < @level
-        d = @level - next_chapter.level + 1
-        d.times{ ret += "</navPoint>\n" }
-      elsif next_chapter.nil? || next_chapter.level == @level
-        ret += "</navPoint>\n"
-      end
-      ret
-    end
-
     def to_chapterlist
       return "#{@insert}" if @insert
       ret = ""
@@ -244,24 +279,28 @@ module VolumeOne
     end
 
     def to_toc_tr
-      ret = "<tr>\n"
-      # Section name and number
-      ret += "<td class='section'>\n"
-      if self.mainmatter?
-        ret += "#{@section_name} #{@section_number}"
+      ret = ""
+      @navpoints.each do |nav|
+        ret += "<tr>\n"
+        # Section name and number
+        ret += "<td class='section'>\n"
+        if self.mainmatter? && !@section_name.nil? && !@section_name.empty?
+          ret += "#{@section_name} #{@section_number}"
+        end
+        ret += "</td>\n"
+        # Separator
+        ret += "<td class='separator'>"
+        if self.mainmatter? && !@section_name.nil? && !@section_name.empty?
+          ret += " &middot; "
+        end
+        ret += "</td>\n"
+        # Title
+        ret += "<td class='title #{@the_matter}'>\n"
+        ret += "<a href='#{File.join('..', 'chapters', File.basename(nav['src']))}'><span>#{nav['text']}</span></a>\n"
+        ret += "</td>\n"
+        ret += "</tr>"
       end
-      ret += "</td>\n"
-      # Separator
-      ret += "<td class='separator'>"
-      if self.mainmatter?
-        ret += " &middot; "
-      end
-      ret += "</td>\n"
-      # Title
-      ret += "<td class='title #{@the_matter}'>\n"
-      ret += "<a href='../chapters/#{@render_name}'><span>#{@title}</span></a>\n"
-      ret += "</td>\n"
-      ret += "</tr>"
+      ret
     end
 
     def frontmatter?
@@ -290,6 +329,14 @@ module VolumeOne
 
     def self.section_number=(a)
       @@section_number = a
+    end
+
+    def self.toc_from_headers
+      @@toc_from_headers
+    end
+
+    def self.toc_from_headers=(b)
+      @@toc_from_headers = b
     end
 
     def self.the_matter
