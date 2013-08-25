@@ -2,7 +2,8 @@ Aureola
 =======
 
 > Die quadratischen Augen der Stadt hast du lange verlassen;\\
-> das Gängelband besitzergreifender Lieberiss bei deinem ersten
+> das Gängelband besitzergreifender Liebe\\
+> riss bei deinem ersten
 > Schritt;\\
 > dein Pferd brach zusammen in deinen Armen,\\
 > weniger kräftig als du gedacht;\\
@@ -18,7 +19,8 @@ Aureola
 > treibst deine endlosen, luftigen Wurzeln\\
 > in den lockeren Sand\\
 > und singst,\\
-> webst eine Stimme aus grünem Achat in dieKantate von Düne und Fels,\\
+> webst eine Stimme aus grünem Achat in die\\
+> Kantate von Düne und Fels,\\
 > und dein Wachstum spiegelt sich in den Augen\\
 > reglos lauschender Echsen.
 

@@ -12,7 +12,8 @@ Wo die Irren Ihn Küssen
 > (der wilde Mann mit der Axt\\
 > wartet auf wärmeres Wetter)
 
-> auf den von unbemannten Schiffen heimgesuchtenMeeren seiner Kraft
+> auf den von unbemannten Schiffen heimgesuchten\\
+> Meeren seiner Kraft
 >
 > im Kaufhaus ohne Kassen, ohne Ausgang
 
@@ -20,7 +21,8 @@ Wo die Irren Ihn Küssen
 
 > in den untertunnelten Böden seiner Kindheit
 >
-> in den von warmen Winden durchwehtenmenschenleeren Zimmern
+> in den von warmen Winden durchwehten\\
+> menschenleeren Zimmern
 >
 > ist er der gejagte Verbrecher sowohl\\
 > als auch der Kommissar

@@ -1,4 +1,3 @@
-=
 
 Engel Hab Ich Mir Abgewöhnt
 ===========================
@@ -35,10 +34,8 @@ Engel Hab Ich Mir Abgewöhnt
 > der wartet\\
 > auf sein Federkleid.
 
-I Abandoned the Habit of Angels
-===============================
-
-[carousel]
+I Abandoned the Habit of Angels[*](notes.xhtml#angels-note){:#angels-ref}
+===
 
 > The angel with the nettle-wing touches my face,\\
 > today, yesterday, and again and again,\\

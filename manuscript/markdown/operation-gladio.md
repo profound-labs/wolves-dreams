@@ -3,6 +3,8 @@ Operation Gladio
 
 > *die Wahrheit ist eine Überläuferin*
 >
+> *Marina Zwetajewa*
+
 > Wenn du im Dunkeln bleibst,\\
 > entspannt sich das Tier,\\
 > der Gedankenbogen schnellt zurück,\\
@@ -22,13 +24,13 @@ Operation Gladio
 > Und aus der Tiefe steigt\\
 > der faule Geruch deiner Opfer.
 
-Operation Gladio
-================
-
-[gladio]
+Operation Gladio[*](notes.xhtml#gladio-note){:#gladio-ref}
+======
 
 > *Truth is a turncoat.*
 >
+> *Marina Cvetajeva*
+
 > When you remain in the dark,\\
 > the animal relaxes,\\
 > the bow of thought whips back,\\

@@ -1,13 +1,13 @@
+5cm
 
 *For Ajahn Sucitto\\
 Chandra, Graham\\
 and Linda*
 
-*with gratitude*
+with gratitude
 
+5cm
 
 *Love is most nearly itself\\
-when here and now cease to matter.*\\
-T.S. Eliot, East Coker
-{:style="padding-top: 3em;"}
-
+when here and now cease to matter.\\
+*

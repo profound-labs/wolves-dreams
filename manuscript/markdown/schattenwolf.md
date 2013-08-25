@@ -4,6 +4,8 @@ Schattenwolf
 > *Solo la nieve sabe\\
 > la grandeza del lobo.*
 >
+> *Leopoldo María Panero*
+
 > Nur der Schnee weiß\\
 > von der Größe des Wolfes\\
 > der unsere Schatten verschlingt
@@ -26,6 +28,8 @@ Shadow-Wolf
 > *Solo la nieve sabe\\
 > la grandeza del lobo.*
 >
+> *Leopoldo María Panero*
+
 > Only the snow knows\\
 > the greatness of the wolf\\
 > that swallows our shadows

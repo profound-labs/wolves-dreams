@@ -1,6 +1,8 @@
 Auf dem Weg nach Yucatán
 ========================
 
+*für Daina*
+
 > **I. Die Nacht**
 >
 > Mit gesenkten Augenlidern\\
@@ -30,6 +32,8 @@ Auf dem Weg nach Yucatán
 > *der Himmel fällt mir aus den Händen…\\
 > Ich bin nicht der ich bin*
 >
+> *Leopoldo María Panero*
+
 > *Aber da ist noch eine andere Sonne,\\
 > hinter dem zweiten Horizont,\\
 > dem Ufer überfließenden Reichtums,\\
@@ -94,10 +98,10 @@ Auf dem Weg nach Yucatán
 > wie die Kerze\\
 > sich in Wärme verwandelt und Licht…
 
-Towards Yucatán
+Towards Yucatán[*](notes.xhtml#yucatan-note){:#yucatan-ref}
 ===============
 
-[yucatan]
+*for Daina*
 
 > **I. The Night**
 >
@@ -127,6 +131,8 @@ Towards Yucatán
 > *the sky falls from my hands…\\
 > I am not who I am*
 >
+> *Leopoldo María Panero*
+
 > *But there is also another sun,\\
 > behind the second horizon,\\
 > the shore of overflowing abundance,\\
@@ -149,7 +155,7 @@ Towards Yucatán
 > in their invisible disguises,\\
 > fauns and fairies and nymphs,*
 >
-> *a Summer Night’s Dream in plain[summer-nights]\\
+> *a Summer Night’s Dream in plain\\
 > daylight, a tumultuous circle dance;\\
 > and the ripened pears and\\
 > a hundred thousand wild roses;\\
@@ -163,7 +169,7 @@ Towards Yucatán
 > I can see it, and the skywalker\\
 > keeps it awake.*
 >
-> **III. What We Call a Soul**
+> **III. What We Call a Soul**[*](notes.html#soul-note){#soul-ref}
 >
 > And don’t we all have\\
 > another side?
@@ -183,7 +189,7 @@ Towards Yucatán
 > show the starfish to their brothers\\
 > in the sky,
 >
-> and think of the poetess:[poetess]\\
+> and think of the poetess:\\
 > *What else could love be,\\
 > if not what bursts at the seams.*
 >

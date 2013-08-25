@@ -14,14 +14,12 @@ Spiegelsaal
 Hall of Mirrors
 ===============
 
-[hall-of-mirrors]
-
 > Not every door\\
 > needs to be opened\\
 > not every key\\
 > wants to be found
 >
-> O pure contradiction\\
+> O pure contradiction[*](notes.xhtml#mirrors-note){:#mirrors-ref}\\
 > to be the lack of an axis\\
 > for so many things\\
 > in nobody’s dream

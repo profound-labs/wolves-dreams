@@ -1,6 +1,8 @@
 Vier Schritte in der Wüste
 ==========================
 
+*für Chandra*
+
 > Vier Schritte in der Wüste –\\
 > ein schräger Vogel, neuromantisch\\
 > tönend in der Nacht.
@@ -31,6 +33,8 @@ Vier Schritte in der Wüste
 
 Four Steps in the Desert
 ========================
+
+*for Chandra*
 
 > Four steps in the desert –\\
 > a strange bird singing\\

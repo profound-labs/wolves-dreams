@@ -32,7 +32,7 @@ Schwester
 Sister
 ======
 
-> *She smokes, has green eyes, comes from the sea –*[marina-autobio]\\
+> *She smokes, has green eyes, comes from the sea –*[*](notes.xhtml#marina-note){:#marina-ref}\\
 > and has lost her way\\
 > inside her heart.
 >
@@ -45,7 +45,7 @@ Sister
 > enclosed sky,
 >
 > *an eye that sees a sun,\\
-> a hand that feels an earth.*[schop-die-welt]\\
+> a hand that feels an earth.*[*](notes.xhtml#arthur-note){:#arthur-ref}\\
 > A mind that smells a lie
 >
 > and forgives.\\

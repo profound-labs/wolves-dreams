@@ -1,6 +1,8 @@
 Chapultepec Blues
 =================
 
+*für Iván*
+
 > An jenem Morgen in Chapultepec\\
 > sah ich meine Gedanken wie Ameisen wandern;\\
 > sie trugen ihre Bedeutung, ihren Schatz weißer Larven,\\
@@ -34,6 +36,8 @@ Chapultepec Blues
 
 Chapultepec Blues
 =================
+
+*for Iván*
 
 > That morning in Chapultepec\\
 > I saw my thoughts wander like ants;\\

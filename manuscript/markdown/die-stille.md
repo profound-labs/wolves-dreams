@@ -1,6 +1,8 @@
 Die Stille in Mailand
 =====================
 
+*für Chandra*
+
 > Stille der Großstadt,\\
 > ungelenke Eroberin,\\
 > sanfter Clown, Alltagsclown,\\
@@ -43,6 +45,8 @@ Die Stille in Mailand
 
 Silence in Milan
 ================
+
+*for Chandra*
 
 > Silence of the big city,\\
 > clumsy conqueress,\\

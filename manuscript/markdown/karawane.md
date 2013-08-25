@@ -7,7 +7,7 @@ Karawane der Leichenwagen
 > fallen wir wie Katzen\\
 > übermütige Engel
 >
-> in eine Parade[rilke]\\
+> in eine Parade\\
 > von Leichenwagen
 >
 > geborgen in der Gemeinschaft derer\\

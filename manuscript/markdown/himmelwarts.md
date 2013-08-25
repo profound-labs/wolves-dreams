@@ -4,6 +4,8 @@ Himmelwärts
 > *Ein Wort – du weißt:\\
 > eine Leiche.*
 >
+> *Paul Celan*
+
 > Unfähig geradeaus zu denken\\
 > kämmt er die entvölkerte Stimme\\
 > mit ungebändigtem Gleichmut\\
@@ -35,6 +37,8 @@ Heavenward
 > *the word, you know:\\
 > a corpse.*
 >
+> *Paul Celan*
+
 > Incapable of thinking in straight lines\\
 > he combs a depopulated language\\
 > with untamed equanimity\\

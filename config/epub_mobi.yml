@@ -4,21 +4,22 @@
 
 bookid: "WolvesDreamsTransformations"
 
+# ISBN for the ebook editions
+isbn: "978-1-908444-39-4"
+
 # BISAC Subject Headings List:
 # http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php
 
-subject: LIST / OF / SUBJECTS
+subject: POETRY / European / General
 source: http://dhammamoon.org/
 
 # MARC Code List for Relators:
-# Editor [edt], Cover designer [cov], Translator [trl]
+# Editor [edt], Cover designer [cov], Translator [trl],
+# Book designer [bkd]
 # http://www.loc.gov/marc/relators/relaterm.html
 
 contributors:
-  - edt: Lastname, Name
-  - edt: Other Lastname, Name
-  - cov: Lastname, Name
-  - trl: Lastname, Name
+  - bkd: Bhikkhu, Gambhiro
 
 # Level 1, 2, 3
 section_names: [ "Part", "", "" ]

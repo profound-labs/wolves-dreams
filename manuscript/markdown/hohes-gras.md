@@ -50,7 +50,8 @@ Hohes Gras und Meer
 > Wassermassen nahen\\
 > von überall her.*
 >
-> Ich erinnere die Blicke der schönenFrauen von Riohacha,\\
+> Ich erinnere die Blicke der schönen\\
+> Frauen von Riohacha,\\
 > den Haifischkopf\\
 > und das undurchsichtige Meer.
 
@@ -105,6 +106,7 @@ High Grass and the Sea
 > masses of water closing in\\
 > from everywhere.*
 >
-> I remember the gaze of the beautifulwomen from Riohacha,\\
+> I remember the gaze of the beautiful\\
+> women from Riohacha,\\
 > the shark’s head\\
 > and the inscrutable sea.
