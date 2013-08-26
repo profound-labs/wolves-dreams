@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:isbn:978-1-908444-39-4" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+
+    <!-- totalPageCount and maxPageNumber are mandatory, but they're not used in ebooks -->
+    <meta content="-1" name="dtb:totalPageCount"/>
+    <meta content="-1" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Wolves, Dreams, Transformations</text>
+  </docTitle>
+  <navMap>
+    <navPoint id='nav1' playOrder='1'>
+<navLabel><text>Copyright</text></navLabel>
+<content src='chapters/copyright-aruno.xhtml'/></navPoint>
+<navPoint id='nav2' playOrder='2'>
+<navLabel><text>Dedication</text></navLabel>
+<content src='chapters/dedication.xhtml'/></navPoint>
+<navPoint id='nav3' playOrder='3'>
+<navLabel><text>Title Page</text></navLabel>
+<content src='chapters/titlepage.xhtml'/></navPoint>
+<navPoint id='nav4' playOrder='4'>
+<navLabel><text>Device Settings</text></navLabel>
+<content src='chapters/device-settings.xhtml'/></navPoint>
+<navPoint id='nav5' playOrder='5'>
+<navLabel><text>Contents</text></navLabel>
+<content src='chapters/toc.xhtml'/></navPoint>
+<navPoint id='nav6' playOrder='6'>
+<navLabel><text>Wölfe | Wolves</text></navLabel>
+<content src='chapters/part1.xhtml'/><navPoint id='nav7' playOrder='7'>
+<navLabel><text>Die Fliegen</text></navLabel>
+<content src='chapters/die-fliegen.xhtml#die-fliegen'/></navPoint>
+<navPoint id='nav8' playOrder='8'>
+<navLabel><text>The Flies</text></navLabel>
+<content src='chapters/die-fliegen.xhtml#the-flies'/></navPoint>
+<navPoint id='nav9' playOrder='9'>
+<navLabel><text>Vier Schritte in der Wüste</text></navLabel>
+<content src='chapters/vier-schritte.xhtml#vier-schritte-in-der-wste'/></navPoint>
+<navPoint id='nav10' playOrder='10'>
+<navLabel><text>Four Steps in the Desert</text></navLabel>
+<content src='chapters/vier-schritte.xhtml#four-steps-in-the-desert'/></navPoint>
+<navPoint id='nav11' playOrder='11'>
+<navLabel><text>Herzwolf</text></navLabel>
+<content src='chapters/herzwolf.xhtml#herzwolf'/></navPoint>
+<navPoint id='nav12' playOrder='12'>
+<navLabel><text>Heart-Wolf</text></navLabel>
+<content src='chapters/herzwolf.xhtml#heart-wolf'/></navPoint>
+<navPoint id='nav13' playOrder='13'>
+<navLabel><text>Hotel Zur Guten Zukunft</text></navLabel>
+<content src='chapters/hotel-zur.xhtml#hotel-zur-guten-zukunft'/></navPoint>
+<navPoint id='nav14' playOrder='14'>
+<navLabel><text>Hotel Good Future</text></navLabel>
+<content src='chapters/hotel-zur.xhtml#hotel-good-future'/></navPoint>
+<navPoint id='nav15' playOrder='15'>
+<navLabel><text>Der Sprachschlucker</text></navLabel>
+<content src='chapters/der-sprach.xhtml#der-sprachschlucker'/></navPoint>
+<navPoint id='nav16' playOrder='16'>
+<navLabel><text>The Language-Eater</text></navLabel>
+<content src='chapters/der-sprach.xhtml#the-language-eater'/></navPoint>
+<navPoint id='nav17' playOrder='17'>
+<navLabel><text>Sostenuto</text></navLabel>
+<content src='chapters/sostenuto.xhtml#sostenuto'/></navPoint>
+<navPoint id='nav18' playOrder='18'>
+<navLabel><text>Sostenuto</text></navLabel>
+<content src='chapters/sostenuto.xhtml#sostenuto-1'/></navPoint>
+<navPoint id='nav19' playOrder='19'>
+<navLabel><text>Tiere die Mich Besuchen in der Nacht</text></navLabel>
+<content src='chapters/tiere-die.xhtml#tiere-die-mich-besuchen-in-der-nacht'/></navPoint>
+<navPoint id='nav20' playOrder='20'>
+<navLabel><text>Animals That Visit Me at Night</text></navLabel>
+<content src='chapters/tiere-die.xhtml#animals-that-visit-me-at-night'/></navPoint>
+<navPoint id='nav21' playOrder='21'>
+<navLabel><text>Schattenwolf</text></navLabel>
+<content src='chapters/schattenwolf.xhtml#schattenwolf'/></navPoint>
+<navPoint id='nav22' playOrder='22'>
+<navLabel><text>Shadow-Wolf</text></navLabel>
+<content src='chapters/schattenwolf.xhtml#shadow-wolf'/></navPoint>
+<navPoint id='nav23' playOrder='23'>
+<navLabel><text>Kein Ende in Sicht</text></navLabel>
+<content src='chapters/kein-ende.xhtml#kein-ende-in-sicht'/></navPoint>
+<navPoint id='nav24' playOrder='24'>
+<navLabel><text>No End in Sight</text></navLabel>
+<content src='chapters/kein-ende.xhtml#no-end-in-sight'/></navPoint>
+<navPoint id='nav25' playOrder='25'>
+<navLabel><text>Engel Hab Ich Mir Abgewöhnt</text></navLabel>
+<content src='chapters/engel-hab.xhtml#engel-hab-ich-mir-abgewhnt'/></navPoint>
+<navPoint id='nav26' playOrder='26'>
+<navLabel><text>I Abandoned the Habit of Angels*</text></navLabel>
+<content src='chapters/engel-hab.xhtml#i-abandoned-the-habit-of-angelsnotesxhtmlangels-noteangels-ref'/></navPoint>
+<navPoint id='nav27' playOrder='27'>
+<navLabel><text>Einsiedler auf Düsterem Berg</text></navLabel>
+<content src='chapters/einsiedler-auf.xhtml#einsiedler-auf-dsterem-berg'/></navPoint>
+<navPoint id='nav28' playOrder='28'>
+<navLabel><text>Hermit on Sullen Mountain</text></navLabel>
+<content src='chapters/einsiedler-auf.xhtml#hermit-on-sullen-mountain'/></navPoint>
+<navPoint id='nav29' playOrder='29'>
+<navLabel><text>Schwester</text></navLabel>
+<content src='chapters/schwester.xhtml#schwester'/></navPoint>
+<navPoint id='nav30' playOrder='30'>
+<navLabel><text>Sister</text></navLabel>
+<content src='chapters/schwester.xhtml#sister'/></navPoint>
+<navPoint id='nav31' playOrder='31'>
+<navLabel><text>Die Stille in Mailand</text></navLabel>
+<content src='chapters/die-stille.xhtml#die-stille-in-mailand'/></navPoint>
+<navPoint id='nav32' playOrder='32'>
+<navLabel><text>Silence in Milan</text></navLabel>
+<content src='chapters/die-stille.xhtml#silence-in-milan'/></navPoint>
+<navPoint id='nav33' playOrder='33'>
+<navLabel><text>An der Tür</text></navLabel>
+<content src='chapters/an-der.xhtml#an-der-tr'/></navPoint>
+<navPoint id='nav34' playOrder='34'>
+<navLabel><text>At the Door</text></navLabel>
+<content src='chapters/an-der.xhtml#at-the-door'/></navPoint>
+</navPoint>
+<navPoint id='nav35' playOrder='35'>
+<navLabel><text>Träume | Dreams</text></navLabel>
+<content src='chapters/part2.xhtml'/><navPoint id='nav36' playOrder='36'>
+<navLabel><text>Traumkasten</text></navLabel>
+<content src='chapters/traumkasten.xhtml#traumkasten'/></navPoint>
+<navPoint id='nav37' playOrder='37'>
+<navLabel><text>Dreambox</text></navLabel>
+<content src='chapters/traumkasten.xhtml#dreambox'/></navPoint>
+<navPoint id='nav38' playOrder='38'>
+<navLabel><text>Hohes Gras und Meer</text></navLabel>
+<content src='chapters/hohes-gras.xhtml#hohes-gras-und-meer'/></navPoint>
+<navPoint id='nav39' playOrder='39'>
+<navLabel><text>High Grass and the Sea</text></navLabel>
+<content src='chapters/hohes-gras.xhtml#high-grass-and-the-sea'/></navPoint>
+<navPoint id='nav40' playOrder='40'>
+<navLabel><text>Aquamarina</text></navLabel>
+<content src='chapters/aquamarina.xhtml#aquamarina'/></navPoint>
+<navPoint id='nav41' playOrder='41'>
+<navLabel><text>Aquamarina</text></navLabel>
+<content src='chapters/aquamarina.xhtml#aquamarina-1'/></navPoint>
+<navPoint id='nav42' playOrder='42'>
+<navLabel><text>Auf dem Weg nach Yucatán</text></navLabel>
+<content src='chapters/auf-dem.xhtml#auf-dem-weg-nach-yucatn'/></navPoint>
+<navPoint id='nav43' playOrder='43'>
+<navLabel><text>Towards Yucatán*</text></navLabel>
+<content src='chapters/auf-dem.xhtml#towards-yucatnnotesxhtmlyucatan-noteyucatan-ref'/></navPoint>
+<navPoint id='nav44' playOrder='44'>
+<navLabel><text>Selbstbildnis in Schwarzweiß</text></navLabel>
+<content src='chapters/selbst.xhtml#selbstbildnis-in-schwarzwei'/></navPoint>
+<navPoint id='nav45' playOrder='45'>
+<navLabel><text>Self-Portrait in Black &amp; White</text></navLabel>
+<content src='chapters/selbst.xhtml#self-portrait-in-black--white'/></navPoint>
+<navPoint id='nav46' playOrder='46'>
+<navLabel><text>Kaktus in Dünner Luft</text></navLabel>
+<content src='chapters/kaktus.xhtml#kaktus-in-dnner-luft'/></navPoint>
+<navPoint id='nav47' playOrder='47'>
+<navLabel><text>Cactus in Thin Air</text></navLabel>
+<content src='chapters/kaktus.xhtml#cactus-in-thin-air'/></navPoint>
+<navPoint id='nav48' playOrder='48'>
+<navLabel><text>Wo die Irren Ihn Küssen</text></navLabel>
+<content src='chapters/wo-die.xhtml#wo-die-irren-ihn-kssen'/></navPoint>
+<navPoint id='nav49' playOrder='49'>
+<navLabel><text>Where He Is Kissed by Lunatics</text></navLabel>
+<content src='chapters/wo-die.xhtml#where-he-is-kissed-by-lunatics'/></navPoint>
+<navPoint id='nav50' playOrder='50'>
+<navLabel><text>Aureola</text></navLabel>
+<content src='chapters/aureola.xhtml#aureola'/></navPoint>
+<navPoint id='nav51' playOrder='51'>
+<navLabel><text>Aureola</text></navLabel>
+<content src='chapters/aureola.xhtml#aureola-1'/></navPoint>
+<navPoint id='nav52' playOrder='52'>
+<navLabel><text>Operation Gladio</text></navLabel>
+<content src='chapters/operation-gladio.xhtml#operation-gladio'/></navPoint>
+<navPoint id='nav53' playOrder='53'>
+<navLabel><text>Operation Gladio*</text></navLabel>
+<content src='chapters/operation-gladio.xhtml#operation-gladionotesxhtmlgladio-notegladio-ref'/></navPoint>
+<navPoint id='nav54' playOrder='54'>
+<navLabel><text>Flussabwärts</text></navLabel>
+<content src='chapters/flussabwarts.xhtml#flussabwrts'/></navPoint>
+<navPoint id='nav55' playOrder='55'>
+<navLabel><text>Downriver</text></navLabel>
+<content src='chapters/flussabwarts.xhtml#downriver'/></navPoint>
+<navPoint id='nav56' playOrder='56'>
+<navLabel><text>Nachtasyl</text></navLabel>
+<content src='chapters/nachtasyl.xhtml#nachtasyl'/></navPoint>
+<navPoint id='nav57' playOrder='57'>
+<navLabel><text>One-Night Shelter</text></navLabel>
+<content src='chapters/nachtasyl.xhtml#one-night-shelter'/></navPoint>
+<navPoint id='nav58' playOrder='58'>
+<navLabel><text>Blinder Prophet</text></navLabel>
+<content src='chapters/blinder-prophet.xhtml#blinder-prophet'/></navPoint>
+<navPoint id='nav59' playOrder='59'>
+<navLabel><text>Blind Prophet</text></navLabel>
+<content src='chapters/blinder-prophet.xhtml#blind-prophet'/></navPoint>
+<navPoint id='nav60' playOrder='60'>
+<navLabel><text>Schuppentier</text></navLabel>
+<content src='chapters/schuppentier.xhtml#schuppentier'/></navPoint>
+<navPoint id='nav61' playOrder='61'>
+<navLabel><text>Pangolin</text></navLabel>
+<content src='chapters/schuppentier.xhtml#pangolin'/></navPoint>
+<navPoint id='nav62' playOrder='62'>
+<navLabel><text>Himmelwärts</text></navLabel>
+<content src='chapters/himmelwarts.xhtml#himmelwrts'/></navPoint>
+<navPoint id='nav63' playOrder='63'>
+<navLabel><text>Heavenward</text></navLabel>
+<content src='chapters/himmelwarts.xhtml#heavenward'/></navPoint>
+<navPoint id='nav64' playOrder='64'>
+<navLabel><text>Spiegelsaal</text></navLabel>
+<content src='chapters/spiegelsaal.xhtml#spiegelsaal'/></navPoint>
+<navPoint id='nav65' playOrder='65'>
+<navLabel><text>Hall of Mirrors</text></navLabel>
+<content src='chapters/spiegelsaal.xhtml#hall-of-mirrors'/></navPoint>
+</navPoint>
+<navPoint id='nav66' playOrder='66'>
+<navLabel><text>Verwandlungen | Transformations</text></navLabel>
+<content src='chapters/part3.xhtml'/><navPoint id='nav67' playOrder='67'>
+<navLabel><text>Karawane der Leichenwagen</text></navLabel>
+<content src='chapters/karawane.xhtml#karawane-der-leichenwagen'/></navPoint>
+<navPoint id='nav68' playOrder='68'>
+<navLabel><text>Caravan of Hearses</text></navLabel>
+<content src='chapters/karawane.xhtml#caravan-of-hearses'/></navPoint>
+<navPoint id='nav69' playOrder='69'>
+<navLabel><text>Als Er Schostakowitsch Hörte</text></navLabel>
+<content src='chapters/als-er.xhtml#als-er-schostakowitsch-hrte'/></navPoint>
+<navPoint id='nav70' playOrder='70'>
+<navLabel><text>When He Listened to Shostakovich</text></navLabel>
+<content src='chapters/als-er.xhtml#when-he-listened-to-shostakovich'/></navPoint>
+<navPoint id='nav71' playOrder='71'>
+<navLabel><text>Haus auf Stelzen</text></navLabel>
+<content src='chapters/haus-auf.xhtml#haus-auf-stelzen'/></navPoint>
+<navPoint id='nav72' playOrder='72'>
+<navLabel><text>House on Stilts</text></navLabel>
+<content src='chapters/haus-auf.xhtml#house-on-stilts'/></navPoint>
+<navPoint id='nav73' playOrder='73'>
+<navLabel><text>Blindenhund</text></navLabel>
+<content src='chapters/blindenhund.xhtml#blindenhund'/></navPoint>
+<navPoint id='nav74' playOrder='74'>
+<navLabel><text>Guide Dog</text></navLabel>
+<content src='chapters/blindenhund.xhtml#guide-dog'/></navPoint>
+<navPoint id='nav75' playOrder='75'>
+<navLabel><text>Flüssigkristall</text></navLabel>
+<content src='chapters/flussig.xhtml#flssigkristall'/></navPoint>
+<navPoint id='nav76' playOrder='76'>
+<navLabel><text>Liquid Crystal</text></navLabel>
+<content src='chapters/flussig.xhtml#liquid-crystal'/></navPoint>
+<navPoint id='nav77' playOrder='77'>
+<navLabel><text>Fiesta in Chiapas</text></navLabel>
+<content src='chapters/fiesta.xhtml#fiesta-in-chiapas'/></navPoint>
+<navPoint id='nav78' playOrder='78'>
+<navLabel><text>Fiesta in Chiapas</text></navLabel>
+<content src='chapters/fiesta.xhtml#fiesta-in-chiapas-1'/></navPoint>
+<navPoint id='nav79' playOrder='79'>
+<navLabel><text>Chapultepec Blues</text></navLabel>
+<content src='chapters/chapultepec.xhtml#chapultepec-blues'/></navPoint>
+<navPoint id='nav80' playOrder='80'>
+<navLabel><text>Chapultepec Blues</text></navLabel>
+<content src='chapters/chapultepec.xhtml#chapultepec-blues-1'/></navPoint>
+<navPoint id='nav81' playOrder='81'>
+<navLabel><text>Unbeschriebener Wolf</text></navLabel>
+<content src='chapters/unbeschriebener.xhtml#unbeschriebener-wolf'/></navPoint>
+<navPoint id='nav82' playOrder='82'>
+<navLabel><text>Blank Wolf</text></navLabel>
+<content src='chapters/unbeschriebener.xhtml#blank-wolf'/></navPoint>
+<navPoint id='nav83' playOrder='83'>
+<navLabel><text>Mit Heiserer Stimme</text></navLabel>
+<content src='chapters/mit-heiserer.xhtml#mit-heiserer-stimme'/></navPoint>
+<navPoint id='nav84' playOrder='84'>
+<navLabel><text>With a Hoarse Voice</text></navLabel>
+<content src='chapters/mit-heiserer.xhtml#with-a-hoarse-voice'/></navPoint>
+<navPoint id='nav85' playOrder='85'>
+<navLabel><text>Der Elektrische Körper</text></navLabel>
+<content src='chapters/der-elektrische.xhtml#der-elektrische-krper'/></navPoint>
+<navPoint id='nav86' playOrder='86'>
+<navLabel><text>The Electric Body</text></navLabel>
+<content src='chapters/der-elektrische.xhtml#the-electric-body'/></navPoint>
+<navPoint id='nav87' playOrder='87'>
+<navLabel><text>Dieser Wind</text></navLabel>
+<content src='chapters/dieser-wind.xhtml#dieser-wind'/></navPoint>
+<navPoint id='nav88' playOrder='88'>
+<navLabel><text>This Wind</text></navLabel>
+<content src='chapters/dieser-wind.xhtml#this-wind'/></navPoint>
+<navPoint id='nav89' playOrder='89'>
+<navLabel><text>Gewöhnliche Dinge</text></navLabel>
+<content src='chapters/gewohnliche.xhtml#gewhnliche-dinge'/></navPoint>
+<navPoint id='nav90' playOrder='90'>
+<navLabel><text>Ordinary Things</text></navLabel>
+<content src='chapters/gewohnliche.xhtml#ordinary-things'/></navPoint>
+</navPoint>
+<navPoint id='nav91' playOrder='91'>
+<navLabel><text>Notes</text></navLabel>
+<content src='chapters/notes.xhtml#notes'/></navPoint>
+
+  </navMap>
+</ncx>

@@ -1,12 +1,12 @@
 Notes
 =====
 
-[link](engel-hab.xhtml#angels), *I Abandoned the Habit of Angels*,
+[link](engel-hab.xhtml#angels-ref), *I Abandoned the Habit of Angels*,
 title: Thomas Rosenlöcher, title of the postscript to
 *Flockenkarussel* (*Carousel of Flakes*).
 {:#angels-note}
 
-[link](schwester.xhtml#marina), *Sister*, line 1: Marina Zvetajeva, from autobiographic prose.
+[link](schwester.xhtml#marina-ref), *Sister*, line 1: Marina Zvetajeva, from autobiographic prose.
 {:#marina-note}
 
 [link](schwester.xhtml#arthur-ref), *Sister*, line 10-11: Arthur

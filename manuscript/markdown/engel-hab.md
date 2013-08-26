@@ -68,4 +68,3 @@ I Abandoned the Habit of Angels[*](notes.xhtml#angels-note){:#angels-ref}
 > like an unfinished angel\\
 > waiting for his feathers.
 
-=

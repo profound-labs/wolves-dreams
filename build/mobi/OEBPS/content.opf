@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="WolvesDreamsTransformations" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ISBN -->
+    <dc:identifier id="WolvesDreamsTransformations" opf:scheme="ISBN">urn:isbn:978-1-908444-39-4</dc:identifier>
+    <!-- UUID generator: http://www.famkruithof.net/uuid/uuidgen -->
+    
+
+    <dc:title>Wolves, Dreams, Transformations</dc:title>
+    <dc:rights>Copyright © 2013 Bhikkhu Abhinando. No part of this book may be reproduced in any form without written permission from the author.</dc:rights>
+
+    <!-- BISAC Subject Headings List: http://www.bisg.org/what-we-do-0-136-bisac-subject-headings-list-major-subjects.php-->
+    <dc:subject>POETRY / European / General</dc:subject>
+
+    <dc:creator opf:file-as="Bhikkhu Abhinando" opf:role="aut">Bhikkhu Abhinando</dc:creator>
+
+    <dc:source>http://dhammamoon.org/</dc:source>
+
+    <!-- List of contributors
+
+         See: MARC Code List for Relators: http://www.loc.gov/marc/relators/relaterm.html
+
+         Examples:
+
+         * Editor [edt]
+           Use for a person or organization who prepares for publication a work not primarily his/her own,
+           such as by elucidating text, adding introductory or other critical matter, or technically directing
+           an editorial staff.
+
+         * Cover designer [cov]
+           Use for a person or organization responsible for the graphic design of a book cover,
+           album cover, slipcase, box, container, etc. For a person or organization responsible
+           for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer.
+
+         * Translator [trl]
+           Use for a person or organization who renders a text from one language into another, or from an older
+           form of a language into the modern form.
+
+         -->
+
+    
+    
+    
+    
+    <dc:contributor opf:file-as="Bhikkhu, Gambhiro" opf:role="bkd">Gambhiro Bhikkhu</dc:contributor>
+    
+    
+
+    <dc:publisher>Aruno Publications</dc:publisher>
+    <dc:date opf:event="publication">2013-08-22</dc:date>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <dc:language>en</dc:language>
+
+    <meta name="cover" content="cover-image" />
+
+  </metadata>
+
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3 
+  -->
+
+  <manifest>
+    
+    <item href="stylesheets/style-mobi.css" id="stylesheets-style-mobi-css" media-type="text/css" />
+    
+    <item href="stylesheets/style-mobi-kf8.css" id="stylesheets-style-mobi-kf8-css" media-type="text/css" />
+    
+    <item href="images/buddho_h55.jpg" id="images-buddho-h55-jpg" media-type="image/jpeg" />
+    
+    <item href="images/cover.jpg" id="cover-image" media-type="image/jpeg" />
+    
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    
+    <item href="chapters/der-sprach.xhtml" id="chapter_der-sprachschlucker" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/schuppentier.xhtml" id="chapter_schuppentier" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/aquamarina.xhtml" id="chapter_aquamarina" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/gewohnliche.xhtml" id="chapter_gew-hnliche-dinge" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/flussabwarts.xhtml" id="chapter_flussabw-rts" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/selbst.xhtml" id="chapter_selbstbildnis-in-schwarzwei-" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/traumkasten.xhtml" id="chapter_traumkasten" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/aureola.xhtml" id="chapter_aureola" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/blinder-prophet.xhtml" id="chapter_blinder-prophet" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/schattenwolf.xhtml" id="chapter_schattenwolf" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/der-elektrische.xhtml" id="chapter_der-elektrische-k-rper" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/die-stille.xhtml" id="chapter_die-stille-in-mailand" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/kein-ende.xhtml" id="chapter_kein-ende-in-sicht" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/fiesta.xhtml" id="chapter_fiesta-in-chiapas" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/karawane.xhtml" id="chapter_karawane-der-leichenwagen" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/flussig.xhtml" id="chapter_fl-ssigkristall" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/notes.xhtml" id="chapter_notes" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/part2.xhtml" id="chapter_tr-ume-dreams" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/hohes-gras.xhtml" id="chapter_hohes-gras-und-meer" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/dedication.xhtml" id="chapter_dedication" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/sostenuto.xhtml" id="chapter_sostenuto" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/unbeschriebener.xhtml" id="chapter_unbeschriebener-wolf" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/part3.xhtml" id="chapter_verwandlungen-transformations" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/vier-schritte.xhtml" id="chapter_vier-schritte-in-der-w-ste" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/titlepage.xhtml" id="chapter_title-page" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/nachtasyl.xhtml" id="chapter_nachtasyl" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/herzwolf.xhtml" id="chapter_herzwolf" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/himmelwarts.xhtml" id="chapter_himmelw-rts" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/schwester.xhtml" id="chapter_schwester" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/einsiedler-auf.xhtml" id="chapter_einsiedler-auf-d-sterem-berg" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/device-settings.xhtml" id="chapter_device-settings" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/part1.xhtml" id="chapter_w-lfe-wolves" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/an-der.xhtml" id="chapter_an-der-t-r" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/mit-heiserer.xhtml" id="chapter_mit-heiserer-stimme" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/engel-hab.xhtml" id="chapter_engel-hab-ich-mir-abgew-hnt" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/spiegelsaal.xhtml" id="chapter_spiegelsaal" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/hotel-zur.xhtml" id="chapter_hotel-zur-guten-zukunft" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/operation-gladio.xhtml" id="chapter_operation-gladio" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/toc.xhtml" id="chapter_contents" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/blindenhund.xhtml" id="chapter_blindenhund" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/copyright-aruno.xhtml" id="chapter_copyright" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/wo-die.xhtml" id="chapter_wo-die-irren-ihn-k-ssen" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/als-er.xhtml" id="chapter_als-er-schostakowitsch-h-rte" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/kaktus.xhtml" id="chapter_kaktus-in-d-nner-luft" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/die-fliegen.xhtml" id="chapter_die-fliegen" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/haus-auf.xhtml" id="chapter_haus-auf-stelzen" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/tiere-die.xhtml" id="chapter_tiere-die-mich-besuchen-in-der-nacht" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/dieser-wind.xhtml" id="chapter_dieser-wind" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/chapultepec.xhtml" id="chapter_chapultepec-blues" media-type="application/xhtml+xml" />
+    
+    <item href="chapters/auf-dem.xhtml" id="chapter_auf-dem-weg-nach-yucat-n" media-type="application/xhtml+xml" />
+    
+    <item href="webfonts/sourcesanspro-semibold.ttf" id="webfonts-sourcesanspro-semibold-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-bolditalic.ttf" id="webfonts-sourcesanspro-bolditalic-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-extralightitalic.ttf" id="webfonts-sourcesanspro-extralightitalic-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-light.ttf" id="webfonts-sourcesanspro-light-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-regular.ttf" id="webfonts-sourcesanspro-regular-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-italic.ttf" id="webfonts-sourcesanspro-italic-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-extralight.ttf" id="webfonts-sourcesanspro-extralight-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-lightitalic.ttf" id="webfonts-sourcesanspro-lightitalic-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/existence-light.ttf" id="webfonts-existence-light-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-semibolditalic.ttf" id="webfonts-sourcesanspro-semibolditalic-ttf" media-type="application/x-font-truetype" />
+    
+    <item href="webfonts/sourcesanspro-bold.ttf" id="webfonts-sourcesanspro-bold-ttf" media-type="application/x-font-truetype" />
+    
+  </manifest>
+
+  <!-- SPINE (mandatory)
+
+       The spine element defines the default reading order of the content. It doesn't list every file in the manifest, 
+       just the reading order.
+
+       The value of the idref tag in the spine has to match the ID tag for that entry in the manifest.
+
+       For example, if you have the following reference in your manifest:
+
+          <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+
+       your spine entry would be:
+
+          <itemref idref="chapter-1" />
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.4
+
+       -->
+  <spine toc="ncx">
+    
+    <itemref idref='chapter_copyright'  />
+    
+    <itemref idref='chapter_dedication'  />
+    
+    <itemref idref='chapter_title-page'  />
+    
+    <itemref idref='chapter_device-settings'  />
+    
+    <itemref idref='chapter_contents'  />
+    
+    <itemref idref='chapter_w-lfe-wolves'  />
+    
+    <itemref idref='chapter_die-fliegen'  />
+    
+    <itemref idref='chapter_vier-schritte-in-der-w-ste'  />
+    
+    <itemref idref='chapter_herzwolf'  />
+    
+    <itemref idref='chapter_hotel-zur-guten-zukunft'  />
+    
+    <itemref idref='chapter_der-sprachschlucker'  />
+    
+    <itemref idref='chapter_sostenuto'  />
+    
+    <itemref idref='chapter_tiere-die-mich-besuchen-in-der-nacht'  />
+    
+    <itemref idref='chapter_schattenwolf'  />
+    
+    <itemref idref='chapter_kein-ende-in-sicht'  />
+    
+    <itemref idref='chapter_engel-hab-ich-mir-abgew-hnt'  />
+    
+    <itemref idref='chapter_einsiedler-auf-d-sterem-berg'  />
+    
+    <itemref idref='chapter_schwester'  />
+    
+    <itemref idref='chapter_die-stille-in-mailand'  />
+    
+    <itemref idref='chapter_an-der-t-r'  />
+    
+    <itemref idref='chapter_tr-ume-dreams'  />
+    
+    <itemref idref='chapter_traumkasten'  />
+    
+    <itemref idref='chapter_hohes-gras-und-meer'  />
+    
+    <itemref idref='chapter_aquamarina'  />
+    
+    <itemref idref='chapter_auf-dem-weg-nach-yucat-n'  />
+    
+    <itemref idref='chapter_selbstbildnis-in-schwarzwei-'  />
+    
+    <itemref idref='chapter_kaktus-in-d-nner-luft'  />
+    
+    <itemref idref='chapter_wo-die-irren-ihn-k-ssen'  />
+    
+    <itemref idref='chapter_aureola'  />
+    
+    <itemref idref='chapter_operation-gladio'  />
+    
+    <itemref idref='chapter_flussabw-rts'  />
+    
+    <itemref idref='chapter_nachtasyl'  />
+    
+    <itemref idref='chapter_blinder-prophet'  />
+    
+    <itemref idref='chapter_schuppentier'  />
+    
+    <itemref idref='chapter_himmelw-rts'  />
+    
+    <itemref idref='chapter_spiegelsaal'  />
+    
+    <itemref idref='chapter_verwandlungen-transformations'  />
+    
+    <itemref idref='chapter_karawane-der-leichenwagen'  />
+    
+    <itemref idref='chapter_als-er-schostakowitsch-h-rte'  />
+    
+    <itemref idref='chapter_haus-auf-stelzen'  />
+    
+    <itemref idref='chapter_blindenhund'  />
+    
+    <itemref idref='chapter_fl-ssigkristall'  />
+    
+    <itemref idref='chapter_fiesta-in-chiapas'  />
+    
+    <itemref idref='chapter_chapultepec-blues'  />
+    
+    <itemref idref='chapter_unbeschriebener-wolf'  />
+    
+    <itemref idref='chapter_mit-heiserer-stimme'  />
+    
+    <itemref idref='chapter_der-elektrische-k-rper'  />
+    
+    <itemref idref='chapter_dieser-wind'  />
+    
+    <itemref idref='chapter_gew-hnliche-dinge'  />
+    
+    <itemref idref='chapter_notes'  />
+    
+  </spine>
+
+  <!-- GUIDE (optional, recommended by Apple)
+
+        The guide lets you specify the role of the book's files.
+
+        Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
+        colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
+        lot (list of tables), notes, preface, and text.
+
+        http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
+
+       -->
+  <guide>
+    
+    <reference href='chapters/copyright-aruno.xhtml' title="Copyright" type='copyright-page' />
+    
+    <reference href='chapters/dedication.xhtml' title="Dedication" type='dedication' />
+    
+    <reference href='chapters/titlepage.xhtml' title="Title Page" type='text' />
+    
+    
+    
+    <reference href='chapters/toc.xhtml' title="Contents" type='toc' />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </guide>
+
+</package>

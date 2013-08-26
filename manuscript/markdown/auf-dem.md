@@ -169,7 +169,7 @@ Towards Yucatán[*](notes.xhtml#yucatan-note){:#yucatan-ref}
 > I can see it, and the skywalker\\
 > keeps it awake.*
 >
-> **III. What We Call a Soul**[*](notes.html#soul-note){#soul-ref}
+> **III. What We Call a Soul**[*](notes.xhtml#soul-note){:#soul-ref}
 >
 > And don’t we all have\\
 > another side?
