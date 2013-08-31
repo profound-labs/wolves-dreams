@@ -131,8 +131,11 @@ module VolumeOne
           doc = Nokogiri::HTML(self.to_html)
           headers = doc.xpath("//*[name()='h1' or name()='h2' or name()='h3' or name()='h4']")
           headers.each do |h|
+            # skip links (<a href=""> tag) in header (possibly end- or footnote references)
+            t = ""
+            h.children.select{|i| i.name != 'a'}.each{|s| t += s}
             @navpoints << {
-              'text' => CGI.escapeHTML(h.text),
+              'text' => CGI.escapeHTML(t),
               'src' => "chapters/#{@render_name}##{h.attributes['id']}",
               'playOrder' => @@playOrder,
               'level' => @level,

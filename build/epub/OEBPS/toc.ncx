@@ -91,7 +91,7 @@
 <navLabel><text>Engel Hab Ich Mir Abgewöhnt</text></navLabel>
 <content src='chapters/engel-hab.xhtml#engel-hab-ich-mir-abgewhnt'/></navPoint>
 <navPoint id='nav27' playOrder='27'>
-<navLabel><text>I Abandoned the Habit of Angels*</text></navLabel>
+<navLabel><text>I Abandoned the Habit of Angels</text></navLabel>
 <content src='chapters/engel-hab.xhtml#i-abandoned-the-habit-of-angelsnotesxhtmlangels-noteangels-ref'/></navPoint>
 <navPoint id='nav28' playOrder='28'>
 <navLabel><text>Einsiedler auf Düsterem Berg</text></navLabel>
@@ -142,7 +142,7 @@
 <navLabel><text>Auf dem Weg nach Yucatán</text></navLabel>
 <content src='chapters/auf-dem.xhtml#auf-dem-weg-nach-yucatn'/></navPoint>
 <navPoint id='nav44' playOrder='44'>
-<navLabel><text>Towards Yucatán*</text></navLabel>
+<navLabel><text>Towards Yucatán</text></navLabel>
 <content src='chapters/auf-dem.xhtml#towards-yucatnnotesxhtmlyucatan-noteyucatan-ref'/></navPoint>
 <navPoint id='nav45' playOrder='45'>
 <navLabel><text>Selbstbildnis in Schwarzweiß</text></navLabel>
@@ -172,7 +172,7 @@
 <navLabel><text>Operation Gladio</text></navLabel>
 <content src='chapters/operation-gladio.xhtml#operation-gladio'/></navPoint>
 <navPoint id='nav54' playOrder='54'>
-<navLabel><text>Operation Gladio*</text></navLabel>
+<navLabel><text>Operation Gladio</text></navLabel>
 <content src='chapters/operation-gladio.xhtml#operation-gladionotesxhtmlgladio-notegladio-ref'/></navPoint>
 <navPoint id='nav55' playOrder='55'>
 <navLabel><text>Flussabwärts</text></navLabel>
